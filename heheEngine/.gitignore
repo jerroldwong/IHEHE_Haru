@@ -1,0 +1,4 @@
+# Ignore Engine files
+/mono/
+/Resources/
+/AppPrefs/
