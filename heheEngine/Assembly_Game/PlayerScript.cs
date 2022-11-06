@@ -42,6 +42,10 @@ namespace heheEngine
         CameraScript cameraScript;
         Rigidbody2D rb;
 
+        // movement variables
+        float moveLeft = -0.5f;
+        float moveRight = 0.5f;
+
         //This scripts is called during the Update loop of the game loop
         public void Update()
         {
@@ -112,6 +116,8 @@ namespace heheEngine
             {
                 cameraScript.cameraMode = true;
                 cameraScript.zoomIn = true;
+
+                Debug.Log("test");
             }
 
             if (Input.GetKeyDown(KeyCode.ALPHA_5))

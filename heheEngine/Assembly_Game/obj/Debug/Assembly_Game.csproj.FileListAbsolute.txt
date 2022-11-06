@@ -12,3 +12,10 @@ C:\Users\Admin\Desktop\heheEngine\Assembly_Game\obj\Debug\Assembly_Game.csproj.C
 C:\Users\Admin\Desktop\heheEngine\Assembly_Game\obj\Debug\Assembly_Game.csproj.CopyComplete
 C:\Users\Admin\Desktop\heheEngine\Assembly_Game\obj\Debug\Assembly_Game.dll
 C:\Users\Admin\Desktop\heheEngine\Assembly_Game\obj\Debug\Assembly_Game.pdb
+C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\mono\4.5\Assembly_Game.dll
+C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\mono\4.5\Assembly_Game.pdb
+C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assembly_Game\obj\Debug\Assembly_Game.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assembly_Game\obj\Debug\Assembly_Game.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assembly_Game\obj\Debug\Assembly_Game.csproj.CopyComplete
+C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assembly_Game\obj\Debug\Assembly_Game.dll
+C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assembly_Game\obj\Debug\Assembly_Game.pdb
