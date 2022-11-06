@@ -1,0 +1,44 @@
+[
+  {
+    "$id": "13c05407-c8f7-4d62-b252-be691d2e7083",
+    "name": "GameObject 2",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "bbdd3f5e-0dfd-492a-96a9-ce63d8d0d027",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 0,
+        "textureGUID": "2f4af7d86402135da9e19371e45f26e",
+        "enabled": true
+      }
+    }
+  }
+]

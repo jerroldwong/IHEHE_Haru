@@ -1,0 +1,95 @@
+[
+  {
+    "$id": "b7d00352-712a-4d2e-992a-1609a5fedfce",
+    "name": "Button (Sprite is a placeholder)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": true,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "7b4d9e08-7a8d-41f7-9336-e4fbed7608cc",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "Button": {
+        "normalColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "highlightedColor": {
+          "r": 1.0,
+          "g": 0.68235296,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "disabledColor": {
+          "r": 0.5,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "pressedColor": {
+          "r": 1.0,
+          "g": 0.31764707,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "interactable": true,
+        "textureGUID": "2f4af7d863d8edc4b94d06b79a38108",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "863fa69c-abc8-415e-8283-c099e06c37bd",
+    "name": "Camera",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "d57a35d7-b0ee-4f4c-a4c9-a4b2822e8640",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "Camera": {
+        "zoomLevel": 5.0,
+        "enabled": true
+      }
+    }
+  }
+]

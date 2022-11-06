@@ -1,0 +1,159 @@
+[
+  {
+    "$id": "dd34ea9d-de70-4a86-ba8e-150998f86bea",
+    "name": "Camera",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "b07f1753-565a-48d1-b18b-58192ea13a3d",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "Camera": {
+        "zoomLevel": 5.0,
+        "enabled": true
+      },
+      "CameraScript": {
+        "zoomIn": false,
+        "zoomOut": false,
+        "cameraMode": false,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "05bc6508-c4b1-488a-b735-9097a576914f",
+    "name": "Haru",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "7bb4e2cf-7ad1-4202-b069-65a642dbb8df",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 0,
+        "textureGUID": "0",
+        "enabled": true
+      },
+      "Animator": {
+        "$id": "1e810762-1ac0-4ac5-a2f0-293d5db69f19",
+        "currentAnimationIndex": 0,
+        "frameElapsedTime": 0.0174527913,
+        "isAnimationPlaying": true,
+        "isAnimationPlayOnce": false,
+        "enabled": true
+      },
+      "Rigidbody2D": {
+        "$id": "1557e632-18d4-4574-b5ec-60a8904ad7dd",
+        "velocity": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "mass": 1.0,
+        "elasticity": 0.5,
+        "gravityScale": 1.0,
+        "drag": 0.5,
+        "isStatic": false,
+        "isKinematic": false,
+        "freezeRotation": false,
+        "enabled": true
+      },
+      "PlayerScript": {
+        "intTest": 0,
+        "floatTest": 0.0,
+        "doubleTest": 0.0,
+        "boolTest": false,
+        "stringTest": "Test",
+        "enumTest": 0,
+        "saif": "OMG",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "48b085a8-c99b-4b3a-8e2f-36b316170b12",
+    "name": "Ground",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "7329fb69-4c4f-4bb2-b57e-cac1e9a0c5c7",
+        "position": {
+          "x": 0.0,
+          "y": -1.81347132,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 10.0,
+          "y": 10.0,
+          "z": 10.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 0,
+        "textureGUID": "2f4aa99fa94580dca44ac49ad0c21a2f",
+        "enabled": true
+      }
+    }
+  }
+]

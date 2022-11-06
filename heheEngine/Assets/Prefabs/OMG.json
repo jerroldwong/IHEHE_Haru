@@ -1,0 +1,131 @@
+[
+  {
+    "$id": "3dcaf5c6-af27-4e1a-8f1b-05d078e52961",
+    "name": "GameObject 2",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "159b8344-1c3e-432d-bd07-c9a323ca2a40",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 0,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "10877702-4ba2-41d7-94d1-f8b6b75ac9c3",
+    "name": "GameObject 3",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "3dcaf5c6-af27-4e1a-8f1b-05d078e52961"
+    },
+    "components": {
+      "Transform": {
+        "$id": "eac004bb-c46c-4bb6-8973-b8a4ac8bcd39",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "Rigidbody2D": {
+        "$id": "1307a3ec-a1e5-487a-b5cb-572996e06771",
+        "velocity": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "mass": 1.0,
+        "elasticity": 0.5,
+        "gravityScale": 1.0,
+        "drag": 0.5,
+        "isStatic": false,
+        "isKinematic": false,
+        "freezeRotation": false,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "26750c49-8eef-4727-9d39-2817b4c21130",
+    "name": "GameObject 4",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "10877702-4ba2-41d7-94d1-f8b6b75ac9c3"
+    },
+    "components": {
+      "Transform": {
+        "$id": "82d154af-e52b-4008-91b6-d35e260b3d91",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "PlayerScript": {
+        "intTest": 0,
+        "floatTest": 0.0,
+        "doubleTest": 0.0,
+        "boolTest": false,
+        "stringTest": "Test",
+        "enumTest": 0,
+        "enabled": true
+      }
+    }
+  }
+]

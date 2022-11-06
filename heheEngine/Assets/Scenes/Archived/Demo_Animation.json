@@ -1,0 +1,52 @@
+[
+  {
+    "$id": "f2ad966a-de26-4a06-b9fa-f0e878df3fc5",
+    "name": "SquidAnimation",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "182b21c8-0179-47d9-9929-dafe969f612d",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 0,
+        "textureGUID": "2f4af7d863dee28bb39181ad25612ab",
+        "enabled": true
+      },
+      "Animator": {
+        "$id": "04cbf0da-dae2-487e-a252-73c13a5faf3a",
+        "currentAnimationIndex": 4,
+        "frameElapsedTime": 0.005085543,
+        "isAnimationPlaying": true,
+        "isAnimationPlayOnce": false,
+        "enabled": true
+      }
+    }
+  }
+]

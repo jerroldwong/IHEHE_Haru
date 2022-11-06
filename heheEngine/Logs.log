@@ -1,0 +1,7 @@
+[3] [06/11/2022] [11:38:49]	Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: g. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <f74995119334484fb6db6825be2eac0d>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <f74995119334484fb6db6825be2eac0d>:0 
+  at Newtonsoft.Json.Linq.JArray.Load (Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x00008] in <f74995119334484fb6db6825be2eac0d>:0 
+  at Newtonsoft.Json.Linq.JArray.Parse (System.String json, Newtonsoft.Json.Linq.JsonLoadSettings settings) [0x0000c] in <f74995119334484fb6db6825be2eac0d>:0 
+  at Newtonsoft.Json.Linq.JArray.Parse (System.String json) [0x00000] in <f74995119334484fb6db6825be2eac0d>:0 
+  at heheEngine.MonoJSONSerializer.DeserialiseObjects (System.String inFilePath, System.String inSceneName) [0x00015] in <bbd2e8efbc02450ab70e0688680fd48e>:0 

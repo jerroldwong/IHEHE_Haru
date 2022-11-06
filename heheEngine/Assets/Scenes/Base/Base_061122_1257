@@ -1,0 +1,1385 @@
+[
+  {
+    "$id": "a6189730-b0ce-4a52-b43f-b6ccb870b599",
+    "name": "Camera",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "09391aa3-0863-4497-9476-b9a21845bb80",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "Camera": {
+        "zoomLevel": 5.0,
+        "enabled": true
+      },
+      "CameraScript": {
+        "zoomIn": false,
+        "zoomOut": false,
+        "cameraMode": false,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "b068f1a7-687b-4e24-a1ce-588c79c20a68",
+    "name": "Haru",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "a6189730-b0ce-4a52-b43f-b6ccb870b599"
+    },
+    "components": {
+      "Transform": {
+        "$id": "ab8f456d-ef99-4f42-8dcd-b1766c16dc88",
+        "position": {
+          "x": 0.0,
+          "y": -0.550950766,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 0.75,
+          "y": 0.75,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 10,
+        "textureGUID": "2f4af7d863233d75e8c9786b901426f",
+        "enabled": true
+      },
+      "Rigidbody2D": {
+        "$id": "08603c93-3e30-42b3-a015-0add7a637cc7",
+        "velocity": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "mass": 1.0,
+        "elasticity": 0.5,
+        "gravityScale": 1.0,
+        "drag": 0.5,
+        "isStatic": false,
+        "isKinematic": false,
+        "freezeRotation": true,
+        "enabled": true
+      },
+      "PlayerScript": {
+        "intTest": 0,
+        "floatTest": 0.0,
+        "doubleTest": 0.0,
+        "boolTest": false,
+        "stringTest": "Test",
+        "enumTest": 0,
+        "saif": "OMG",
+        "enabled": true
+      },
+      "BoxCollider2D": {
+        "halfExtents": {
+          "x": 0.5,
+          "y": 1.5
+        },
+        "colliderShapeType": 1,
+        "isStatic": false,
+        "isTrigger": false,
+        "shapeRotation": 0.0,
+        "shapePosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "shapeScale": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "938f23cc-ef81-44b5-9be2-d5ff83639e08",
+    "name": "Ground",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "c7dee02b-d2bc-41fb-8a3d-ea337c75bc15",
+        "position": {
+          "x": 0.0,
+          "y": -0.319517076,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 18.0,
+          "y": 18.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 2,
+        "textureGUID": "2f4aa99fa94580dca44ac49ad0c21a2f",
+        "enabled": true
+      },
+      "Rigidbody2D": {
+        "$id": "62269188-e985-4acb-890e-563b780a14c4",
+        "velocity": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "mass": 1.0,
+        "elasticity": 0.5,
+        "gravityScale": 1.0,
+        "drag": 0.5,
+        "isStatic": true,
+        "isKinematic": false,
+        "freezeRotation": false,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "0ff24648-8d1a-42c2-adb2-3cec0924374f",
+    "name": "Sakura Tree",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "1e81f7a4-aac0-4a21-afb1-3944f8d9fc70",
+        "position": {
+          "x": -1.68652868,
+          "y": 1.34887719,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 9.0,
+          "y": 9.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 4,
+        "textureGUID": "2f4aa9b1a96d00511241d9f993b5cc34",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "1cc004f0-a072-4867-a1a3-3e3458a75540",
+    "name": "Exit Sign",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "fb520ae3-8754-4000-90b5-73676490e52d",
+        "position": {
+          "x": 4.06735849,
+          "y": -2.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 5,
+        "textureGUID": "2f4aa9f0d7be00cfa53a109f87619d35",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "a3e2686b-65aa-41bd-b6bf-1af43842c97b",
+    "name": "Ground Hitbox",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "48619c0f-cf65-4c0e-b151-6f2c4ab0d0f6",
+        "position": {
+          "x": 0.0,
+          "y": -4.41709852,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "Rigidbody2D": {
+        "$id": "5241fe3e-8019-494a-98df-b9476e1ef91a",
+        "velocity": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "mass": 1.0,
+        "elasticity": 0.5,
+        "gravityScale": 1.0,
+        "drag": 0.5,
+        "isStatic": true,
+        "isKinematic": false,
+        "freezeRotation": false,
+        "enabled": true
+      },
+      "BoxCollider2D": {
+        "halfExtents": {
+          "x": 9.0,
+          "y": 0.5
+        },
+        "colliderShapeType": 1,
+        "isStatic": false,
+        "isTrigger": false,
+        "shapeRotation": 0.0,
+        "shapePosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "shapeScale": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "2257e883-301f-4213-8e0f-1f43ce192d53",
+    "name": "Background Container",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "5d440cce-ac3e-425d-b920-22b02365d7c0",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "a92a0d86-6632-42d5-a3ec-583fb9d338ca",
+    "name": "Background Sky",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "2257e883-301f-4213-8e0f-1f43ce192d53"
+    },
+    "components": {
+      "Transform": {
+        "$id": "ec852c89-0de6-4a33-8ac0-8a5f8c9df0a1",
+        "position": {
+          "x": 0.0,
+          "y": 0.0759933,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 19.0,
+          "y": 19.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 0,
+        "textureGUID": "2f4aa9acc6348041d440026f1493ec20",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "05cb7e6b-b097-412c-8819-706f75da95ed",
+    "name": "Background",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "2257e883-301f-4213-8e0f-1f43ce192d53"
+    },
+    "components": {
+      "Transform": {
+        "$id": "467ab951-a015-4dad-b45c-361c24b396b8",
+        "position": {
+          "x": 0.0,
+          "y": -0.284973443,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 18.0,
+          "y": 18.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 1,
+        "textureGUID": "2f4aa9a98e3b00aa71da0e9b1f925f1f",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "25beb1fd-2985-446f-abeb-cc4e9271a7c4",
+    "name": "Shed Container",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "432ea06e-b321-421a-8a6d-a87e0e8c3776",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "73e9ff1b-c649-45a1-b298-6aa0ca7cb6e5",
+    "name": "Shed",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "25beb1fd-2985-446f-abeb-cc4e9271a7c4"
+    },
+    "components": {
+      "Transform": {
+        "$id": "a0e2ea39-ac2d-4985-802c-285f158cf2ac",
+        "position": {
+          "x": -5.015543,
+          "y": -2.16580367,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 6.0,
+          "y": 6.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 6,
+        "textureGUID": "2f4aa9e95522809cb915ec99e7149630",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "8db484be-766e-49e7-87c8-f1620174c043",
+    "name": "Shed Leg",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "25beb1fd-2985-446f-abeb-cc4e9271a7c4"
+    },
+    "components": {
+      "Transform": {
+        "$id": "412c24d8-16ec-46ed-92a1-0053695896bb",
+        "position": {
+          "x": -2.90155458,
+          "y": -2.76165724,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 0.6,
+          "y": 0.5,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 11,
+        "textureGUID": "2f4aa9e5c19b8020fcfcfc7992f2f231",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "aa17bf3b-4408-419a-828c-db741d410303",
+    "name": "Bush",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "45ec0292-abf0-417b-8f96-17f57e732956",
+        "position": {
+          "x": 5.78497458,
+          "y": -2.339378,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 2.0,
+          "y": 2.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 4,
+        "textureGUID": "2f4aa9ba5d3580fadb6670565619d722",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "6b1e4f96-ad52-4ccb-865c-b4bfc61f6bda",
+    "name": "Bush (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "3eca87f8-0646-45c1-9a28-3d02383cebae",
+        "position": {
+          "x": 1.34196973,
+          "y": -2.21243525,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 2.0,
+          "y": 2.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 4,
+        "textureGUID": "2f4aa9ba5d3580fadb6670565619d722",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "e14286d2-2454-4a4d-bc5d-0a772746cc47",
+    "name": "Big Bush",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "100147f0-6784-45a0-b6e5-52708f7e30a3",
+        "position": {
+          "x": 6.556511E-07,
+          "y": -2.049223,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 18.0,
+          "y": 18.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 2,
+        "textureGUID": "2f4aa9c310fe00ad2e7845a96bdb7521",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0",
+    "name": "Fence Container",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "1f48d12c-4f68-4f2c-a3ec-86f2bb9331b8",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "9a9edef1-4fb5-48fa-bdb4-ced143a45462",
+    "name": "Fence 02",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "b978d0a9-9364-4ef0-aa97-23b5390e06a3",
+        "position": {
+          "x": 4.50777435,
+          "y": -2.10535336,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c7f4368096ee1246a1a898e826",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "a9821a3a-a7a7-4d7a-a169-d64f6d1d8b95",
+    "name": "Fence 01",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "f24756a7-5fa5-4c14-9708-62ff28dbc73a",
+        "position": {
+          "x": 5.443869,
+          "y": -2.110535,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c9dc7e801ff1937f595e93b725",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "e3fe9d54-c37e-40cd-8fab-189d9b8b4fe1",
+    "name": "Fence 02 (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "a7206873-89b0-460b-98fa-4ffacc3a3502",
+        "position": {
+          "x": 6.353199,
+          "y": -2.06822062,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c7f4368096ee1246a1a898e826",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "c33386e9-99c2-4a54-9cae-bb179884006f",
+    "name": "Fence 01 (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "90608b96-5724-42fe-82b3-ecb1e6950389",
+        "position": {
+          "x": 7.271157,
+          "y": -2.090674,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c9dc7e801ff1937f595e93b725",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "70375878-8108-4d97-b1e8-ddb514643259",
+    "name": "Fence 02 (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "0d743b91-40b1-4a62-aabb-5ee5dd7f3b60",
+        "position": {
+          "x": 8.202075,
+          "y": -2.06563,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c7f4368096ee1246a1a898e826",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "bddcb96f-6015-413e-983b-a0eeabd7229f",
+    "name": "Fence 01 (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "226dde3c-8e9d-4d0b-ac18-2a047a9f1180",
+        "position": {
+          "x": -0.196892083,
+          "y": -2.110535,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c9dc7e801ff1937f595e93b725",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "fb1c786e-315a-4081-97ae-3b53e5639ae3",
+    "name": "Fence 02 (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "1c61a4b6-b59d-449d-bf3d-ad79591030cb",
+        "position": {
+          "x": -3.00172472,
+          "y": -2.10535336,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c7f4368096ee1246a1a898e826",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "b4e4f6e2-2d41-48ce-9be2-28bb7774f4d3",
+    "name": "Fence 01 (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "af13cebe-f388-47d2-a624-6c667740734e",
+        "position": {
+          "x": -2.06045,
+          "y": -2.110535,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c9dc7e801ff1937f595e93b725",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "23094385-92ab-435e-9974-1ba5ff43a92a",
+    "name": "Fence 02 (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "41656356-afb9-4acf-b84e-0e9930416763",
+        "position": {
+          "x": -1.1381669,
+          "y": -2.10535336,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c7f4368096ee1246a1a898e826",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "2f007e4c-b946-4ecc-9a42-05945eb1599e",
+    "name": "Fence 01 (Copy) (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "ca3b4be9-5828-4adf-bc86-efa2c10ddd43",
+        "position": {
+          "x": -3.934371,
+          "y": -2.12262464,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c9dc7e801ff1937f595e93b725",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "aeb1e466-c51a-4057-b506-9b52b5f0d9bc",
+    "name": "Fence 02 (Copy) (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "c061bba7-309a-4f37-8349-af68f7a9f9e2",
+        "position": {
+          "x": -4.88600874,
+          "y": -2.10535336,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c7f4368096ee1246a1a898e826",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "6ed24e43-6ee2-4d1a-8fbf-e0567972e527",
+    "name": "Fence 01 (Copy) (Copy) (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "a9eefd98-4f16-4326-b45b-489995f2219a",
+        "position": {
+          "x": -5.83074474,
+          "y": -2.12262464,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c9dc7e801ff1937f595e93b725",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "7a76ca69-bf89-48ef-a57f-b70cd0eb3c7d",
+    "name": "Fence 02 (Copy) (Copy) (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "46ebe958-055d-42c4-8d0d-dbf61332d4a7",
+        "position": {
+          "x": -6.77201939,
+          "y": -2.10535336,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c7f4368096ee1246a1a898e826",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "5f2083e3-09e3-4de8-8fcf-fcf106311b4b",
+    "name": "Fence 01 (Copy) (Copy) (Copy) (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "b37a1a86-654d-4649-8bb2-bdf11e6b2cd0"
+    },
+    "components": {
+      "Transform": {
+        "$id": "2f6be23e-b3b2-4079-b785-420fe072a9ed",
+        "position": {
+          "x": -7.71675444,
+          "y": -2.12262464,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 3,
+        "textureGUID": "2f4aa9c9dc7e801ff1937f595e93b725",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "9a7e598c-d56a-4c42-820a-2b6fb0425b65",
+    "name": "Foreground",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "0d5b10eb-8504-4fd6-9b37-47badfdadd26",
+        "position": {
+          "x": 0.0,
+          "y": -0.3022455,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 18.0,
+          "y": 18.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 7,
+        "textureGUID": "2f4af7d86373cee1eb3817c6f5320010",
+        "enabled": true
+      }
+    }
+  }
+]

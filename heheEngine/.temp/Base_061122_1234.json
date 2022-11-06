@@ -1,0 +1,1024 @@
+[
+  {
+    "$id": "d6224796-9104-48f0-a62e-ab5b17ddfe10",
+    "name": "Camera",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "2c1ede84-4ddf-4811-bf24-51ff90ed19f4",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "CameraScript": {
+        "zoomIn": false,
+        "zoomOut": false,
+        "cameraMode": false,
+        "enabled": true
+      },
+      "Camera": {
+        "zoomLevel": 5.0,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "45c5f469-3455-4c47-9c62-41a0013925af",
+    "name": "Haru",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "9290e6ed-84f0-4062-93d3-ad27740eba4c",
+        "position": {
+          "x": 0.0,
+          "y": -0.550950766,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 0.75,
+          "y": 0.75,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "PlayerScript": {
+        "intTest": 0,
+        "floatTest": 0.0,
+        "doubleTest": 0.0,
+        "boolTest": false,
+        "stringTest": "Test",
+        "enumTest": 0,
+        "saif": "OMG",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "3847f392-9a68-458b-8604-12398138dc70",
+    "name": "Ground",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "76c89b7c-c7f4-424a-a056-bca81d2ef207",
+        "position": {
+          "x": 0.0,
+          "y": -0.319517076,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 18.0,
+          "y": 18.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "30806726-4451-47e7-ac04-7b5f7635c2a4",
+    "name": "Sakura Tree",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "a407b842-1147-43ee-bf37-824166204f03",
+        "position": {
+          "x": -1.68652868,
+          "y": 1.34887719,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 9.0,
+          "y": 9.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "08bc2b0b-dd14-4cca-994c-c665c9a06e17",
+    "name": "Exit Sign",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "b010955a-c2d7-400e-9c08-19f82ef235ba",
+        "position": {
+          "x": 4.06735849,
+          "y": -2.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "9147cf2d-0f94-461f-8f23-542dc8f9de4b",
+    "name": "Ground Hitbox",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "c5747006-c554-4cf1-883c-477d834f6300",
+        "position": {
+          "x": 0.0,
+          "y": -4.41709852,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "1d81f16d-d026-41b5-a520-c293b533e493",
+    "name": "Background Container",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "b477f0ff-4ebf-4087-9b7a-2c3b93e66de0",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "379393c0-c043-4d69-8631-8fb3540745bf",
+    "name": "Background Sky",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "a69b1dbf-36b3-4a94-bbec-fe837be47041",
+        "position": {
+          "x": 0.0,
+          "y": 0.0759933,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 19.0,
+          "y": 19.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "434385c9-af7e-44d0-8fc1-7bb2bba5ecc3",
+    "name": "Background",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "7bf13223-b8fa-412b-a406-3ad9b3945e97",
+        "position": {
+          "x": 0.0,
+          "y": -0.284973443,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 18.0,
+          "y": 18.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "b61ed581-e005-4973-b143-48be86df77a7",
+    "name": "Foreground",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "e8706b4a-144b-4c3a-bbb6-7a4d0a9abc03",
+        "position": {
+          "x": -0.0207250714,
+          "y": -0.3825549,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 18.0,
+          "y": 18.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "47e51c1e-a773-4352-9e82-7f0fe5023351",
+    "name": "Midground Container",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "e96ab0fc-57f4-4c09-8463-40984a132e54",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "ea64482c-b5d8-4f23-b3da-8fd7f3abb94c",
+    "name": "Table",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "47e51c1e-a773-4352-9e82-7f0fe5023351"
+    },
+    "components": {
+      "Transform": {
+        "$id": "f5d4b89f-88d8-4ee6-a3bb-970aa25936e4",
+        "position": {
+          "x": -5.213299,
+          "y": -3.10449123,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.25,
+          "y": 1.25,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "88d6444a-99ac-4a81-a1b0-6d7519a3d3ba",
+    "name": "Fence Container",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "47e51c1e-a773-4352-9e82-7f0fe5023351"
+    },
+    "components": {
+      "Transform": {
+        "$id": "aa407ed1-d0fd-40dd-9cde-9edf135a1d4d",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "7f4db1e7-b56f-4a81-9fe5-700356ce9eac",
+    "name": "Big Bush",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "47e51c1e-a773-4352-9e82-7f0fe5023351"
+    },
+    "components": {
+      "Transform": {
+        "$id": "bed17d3a-9ae9-4709-9995-c31f84d9467d",
+        "position": {
+          "x": 6.556511E-07,
+          "y": -2.049223,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 18.0,
+          "y": 18.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "122f77af-11c7-4dbb-b639-10be4be06f7f",
+    "name": "Bush (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "47e51c1e-a773-4352-9e82-7f0fe5023351"
+    },
+    "components": {
+      "Transform": {
+        "$id": "043b427d-1ff6-4314-b1d5-bda96eced613",
+        "position": {
+          "x": 1.34196973,
+          "y": -2.21243525,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 2.0,
+          "y": 2.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "7922d043-9590-480d-a025-bbfb7970d2a6",
+    "name": "Bush",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "47e51c1e-a773-4352-9e82-7f0fe5023351"
+    },
+    "components": {
+      "Transform": {
+        "$id": "5178d4a0-7d91-4225-96c9-529d22badff3",
+        "position": {
+          "x": 5.78497458,
+          "y": -2.339378,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 2.0,
+          "y": 2.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "e1ac813f-6104-44f5-9037-874eddb00e1a",
+    "name": "Shed Container",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": {
+      "$ref": "47e51c1e-a773-4352-9e82-7f0fe5023351"
+    },
+    "components": {
+      "Transform": {
+        "$id": "3ca02eb5-767b-4630-bf4c-1dfdce2aa8b0",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "255af35c-87ee-4f33-bbc5-fb84c7caf165",
+    "name": "Fence 02",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "b19665fb-ecb7-4fbe-8c6b-70b2a5c880bf",
+        "position": {
+          "x": 4.50777435,
+          "y": -2.10535336,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "f36f9795-fd5c-45b7-82b1-8dd831d7a79e",
+    "name": "Fence 01",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "e2253282-248e-436e-adc0-913f5518224c",
+        "position": {
+          "x": 5.443869,
+          "y": -2.110535,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "51710437-1357-490e-8252-58ee7bc780d3",
+    "name": "Fence 02 (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "1f837494-b174-468c-879e-1e75f4f62563",
+        "position": {
+          "x": 6.353199,
+          "y": -2.06822062,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "43499f10-f114-428b-b79d-0583ca092941",
+    "name": "Fence 01 (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "c9b1db55-5fb4-4cad-99f2-6694d392fd57",
+        "position": {
+          "x": 7.271157,
+          "y": -2.090674,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "1871054d-ae09-4c65-bee8-03c0c49399bb",
+    "name": "Fence 02 (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "16a63875-4fd4-4ed4-9384-458b1db0dd94",
+        "position": {
+          "x": 8.202075,
+          "y": -2.06563,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "038e006b-d1f4-4899-ae37-6f62f60491ba",
+    "name": "Fence 01 (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "e0bb7edc-b504-4a5e-a290-515e5f10c0b2",
+        "position": {
+          "x": -0.196892083,
+          "y": -2.110535,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "cb3407fb-0b73-4b8d-a225-9d1829e839c6",
+    "name": "Fence 02 (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "029843a1-e748-4de6-ac85-d9f5f60f5c2f",
+        "position": {
+          "x": -3.00172472,
+          "y": -2.10535336,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "dd6c6b05-57e0-4304-a036-fcd44bb971f8",
+    "name": "Fence 01 (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "55a42502-c1d7-40b8-b468-495c558e26a2",
+        "position": {
+          "x": -2.06045,
+          "y": -2.110535,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "a0e308aa-a722-4279-b8b0-ccdccfc51986",
+    "name": "Fence 02 (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "0bf2d84a-5c88-45cb-867c-09d7455baa33",
+        "position": {
+          "x": -1.1381669,
+          "y": -2.10535336,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "53c9b36e-94bf-43a3-9913-dce6811ed13c",
+    "name": "Fence 01 (Copy) (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "c37d59cd-ebd8-4664-899d-aab09cfe5afd",
+        "position": {
+          "x": -3.934371,
+          "y": -2.12262464,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "5fd1aebc-dfc7-4eb2-b0c6-0d4b5e647f71",
+    "name": "Fence 02 (Copy) (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "d4f134b5-26e2-400a-bf4a-d8ffb4d0094c",
+        "position": {
+          "x": -4.88600874,
+          "y": -2.10535336,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "222c8c52-905f-4826-aa6a-7525ba34034c",
+    "name": "Fence 01 (Copy) (Copy) (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "931164b8-1092-4e4d-8626-4592535f88cc",
+        "position": {
+          "x": -5.83074474,
+          "y": -2.12262464,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "35d30892-e737-4a85-b5de-3cae2976a843",
+    "name": "Fence 02 (Copy) (Copy) (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "d3e6e27c-dd36-44b1-8b83-83b6b1ad308f",
+        "position": {
+          "x": -6.77201939,
+          "y": -2.10535336,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "d83213b3-d889-4be9-a975-279eceef3c00",
+    "name": "Fence 01 (Copy) (Copy) (Copy) (Copy) (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "5152d58f-2a92-417c-b0a0-7e69b6a907a0",
+        "position": {
+          "x": -7.71675444,
+          "y": -2.12262464,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "33940aa0-a34d-4055-8517-7ef708e165cb",
+    "name": "Shed",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "b4c9317a-2363-4155-bf67-77b2af4a11dc",
+        "position": {
+          "x": -5.015543,
+          "y": -2.16580367,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 6.0,
+          "y": 6.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "e88e1e75-fa47-427b-80fa-adf5015541ad",
+    "name": "Shed Leg",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "1bd90945-8400-4a5f-b81a-03c64ab7f585",
+        "position": {
+          "x": -2.90155458,
+          "y": -2.76165724,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 0.6,
+          "y": 0.5,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  }
+]
