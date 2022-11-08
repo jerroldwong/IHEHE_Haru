@@ -32,12 +32,24 @@ namespace heheEngine
 
         }
 
-        void OnTriggerEnter2D(Collider2D col)
+        public void OnTriggerEnter()
         {
+            cameraScript.isTracking = false;
+            /*
             if (col.gameObject.name == "Player")
             {
-                cameraScript.isTracking = false;
+                Debug.Log("collided");
             }
+            */
+            Debug.Log("collided");
+
+        }
+
+        public void OnTriggerExit()
+        {
+            cameraScript.isTracking = true;
+
+            Debug.Log("left collider");
         }
     }
 }

@@ -55,7 +55,6 @@ namespace heheEngine
 
 
             //performs the zoom in effect
-
             if (zoomIn && camera.zoomLevel >= 3.5f)
             {
                 camera.zoomLevel -= 0.1f;
@@ -109,6 +108,15 @@ namespace heheEngine
                 {
                     //make camera follow the player in zoomed out mode
                     transform.position = Vector3.Lerp(transform.position, playerTransform.position + new Vector3(0.0f, 3.0f, 0.0f), Time.deltaTime * 2.0f);
+
+                    //Debug.Log("camera is tracking");
+                }
+
+                if (isTracking == false)
+                {
+                    transform.position = transform.position;
+
+                    //Debug.Log("camera is not tracking");
                 }
             }
         }
