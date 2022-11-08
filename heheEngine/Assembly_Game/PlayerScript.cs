@@ -40,11 +40,17 @@ namespace heheEngine
         public Test123 enumTest = Test123.Test1;
         public string saif = "OMG";
         CameraScript cameraScript;
+        PlayerActions playerActions;
         Rigidbody2D rb;
 
         // movement variables
-        float moveLeft = -0.5f;
-        float moveRight = 0.5f;
+        //float moveLeft = -0.5f;
+        //float moveRight = 0.5f;
+
+        void Start()
+        {
+            playerActions = gameObject.GetComponent<PlayerActions>();
+        }
 
         //This scripts is called during the Update loop of the game loop
         public void Update()
@@ -124,6 +130,11 @@ namespace heheEngine
             {
                 cameraScript.zoomOut = true;
                 Debug.Log("zoomOut");
+            }
+
+            if (cameraScript.cameraMode && Input.GetButtonMouseDown(MouseCode.LEFT))
+            {
+                playerActions.FlashSkill();
             }
 
         }

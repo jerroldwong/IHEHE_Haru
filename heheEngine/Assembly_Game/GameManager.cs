@@ -9,17 +9,28 @@ namespace heheEngine
 {
     public class GameManager : ScriptComponent
     {
+
+        public static GameManager gameManagerInstance;
+
         // params
         private GameObject player;
-        private GameObject leftHitbox;
-        private GameObject rightHitbox;
+        /*
+        private void Awake()
+        {
+            //DontDestroyOnLoad(this);
 
-        CameraScript cameraScript;
-
+            if (gameManagerInstance == null)
+            {
+                gameManagerInstance = this;
+            }
+            else
+            {
+                GameObject.Destroy(this.gameObject);
+            }
+        }
+        */
         public void Start()
         {
-            leftHitbox = GameObject.Find("leftHitbox");
-            rightHitbox = GameObject.Find("rightHitbox");
             player = GameObject.Find("Player");
         }
 

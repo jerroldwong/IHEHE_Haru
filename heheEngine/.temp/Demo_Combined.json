@@ -1,6 +1,6 @@
 [
   {
-    "$id": "3769a66f-6130-492e-a9d5-9dfe14cd6a0d",
+    "$id": "5812b1a3-77d8-46fc-b423-191b740f8e9d",
     "name": "Player",
     "tag": "Untagged",
     "activeSelf": true,
@@ -9,7 +9,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "1b12fdc3-bc92-4bcd-94ef-253e613bb731",
+        "$id": "15c9f889-969e-4c3b-a25a-d8da1b38a474",
         "position": {
           "x": -12.21633,
           "y": 0.8344239,
@@ -40,7 +40,7 @@
         "enabled": true
       },
       "Rigidbody2D": {
-        "$id": "7c6cb818-7974-4173-b2f4-1d6baede2938",
+        "$id": "be8ca86a-3c34-45e4-892f-bf77bd1844dd",
         "velocity": {
           "x": 0.0,
           "y": 0.0
@@ -86,7 +86,7 @@
     }
   },
   {
-    "$id": "5783a287-39e5-412f-b5e5-4780ca84d883",
+    "$id": "8de7afc9-5879-49d9-bdf8-55cbdd7ac7be",
     "name": "Floor",
     "tag": "Untagged",
     "activeSelf": true,
@@ -95,7 +95,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "c86d3d16-e261-4ca8-a7a8-a9842159ccb2",
+        "$id": "0df6b223-03eb-4059-821e-8d10a6228700",
         "position": {
           "x": 0.0,
           "y": -1.29870117,
@@ -135,7 +135,7 @@
     }
   },
   {
-    "$id": "29f7b767-9ef7-42ad-8828-5b4266e05530",
+    "$id": "1908bbfc-961b-4653-9b59-4ffe9983ef99",
     "name": "Left Wall",
     "tag": "Untagged",
     "activeSelf": true,
@@ -144,7 +144,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "c8249221-950f-41f2-bd34-31751b9e5a00",
+        "$id": "8628721d-2b9c-47dc-9bc3-fd5f54d88f75",
         "position": {
           "x": -14.3571424,
           "y": 4.3560605,
@@ -184,7 +184,7 @@
     }
   },
   {
-    "$id": "c186e343-a00f-4547-a9eb-44ec4ef76452",
+    "$id": "c1509dc1-81cb-4a12-82b2-b50781cd0e94",
     "name": "Right Wall",
     "tag": "Untagged",
     "activeSelf": true,
@@ -193,7 +193,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "585d2e9c-e173-4661-a625-d6560c26c47b",
+        "$id": "6780734a-cfff-4ced-b517-d38b0a4ec03d",
         "position": {
           "x": 13.1958857,
           "y": 4.3560605,
@@ -233,7 +233,7 @@
     }
   },
   {
-    "$id": "be834e34-a58a-4eae-80ee-ad5ec4e4dcb6",
+    "$id": "14c6c048-bfa3-4b33-a278-5c0eb3708c8e",
     "name": "Background",
     "tag": "Untagged",
     "activeSelf": true,
@@ -242,7 +242,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "9f304e7d-0d57-4f63-b1d4-4b51d2d51d13",
+        "$id": "96aa3b3e-9f0c-4408-8e0d-ae754eba621a",
         "position": {
           "x": 0.0,
           "y": 4.36109,
@@ -275,7 +275,7 @@
     }
   },
   {
-    "$id": "69ebc581-acc1-4966-ae80-1e3768af7077",
+    "$id": "a6f8099e-9bdb-4e2b-b913-279d9db7cb8a",
     "name": "Cat",
     "tag": "Untagged",
     "activeSelf": true,
@@ -284,7 +284,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "9ec61542-e291-43ca-9ba8-c9499e38316a",
+        "$id": "ba4182a1-f1e0-4d45-990d-b49c13c1731a",
         "position": {
           "x": -9.043816,
           "y": 1.84920287,
@@ -320,7 +320,7 @@
     }
   },
   {
-    "$id": "5e9820e9-fa78-4f41-a79e-29a92edc2cf0",
+    "$id": "84a260e3-f9c2-4817-8673-1f85e7c59620",
     "name": "Glob Glob",
     "tag": "Untagged",
     "activeSelf": true,
@@ -329,7 +329,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "d65af63d-8fcc-4181-87be-470b429a69fd",
+        "$id": "e774c53e-0c0d-40ac-aee6-3b818ac64189",
         "position": {
           "x": -6.78923655,
           "y": 2.46825838,
@@ -370,7 +370,7 @@
     }
   },
   {
-    "$id": "4ca3ae3c-516f-41d6-afc7-2d361a8321d6",
+    "$id": "680e201d-2051-4436-aad5-c60b6cece193",
     "name": "Text",
     "tag": "Untagged",
     "activeSelf": true,
@@ -379,7 +379,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "8cf5546c-5cec-4cbc-b435-15bbc6766e01",
+        "$id": "1074b2a0-a410-44f1-b5fa-f98038cd7ed1",
         "position": {
           "x": 0.0,
           "y": 199.999969,
@@ -398,7 +398,7 @@
         "enabled": true
       },
       "RectTransform": {
-        "$id": "4d3ad57b-9d47-485d-a046-ca1ce2fcff03",
+        "$id": "f2117a9c-15e4-48db-952e-d4f2e71e9f33",
         "anchoredPosition": {
           "x": 0.0,
           "y": 199.999969
@@ -441,14 +441,14 @@
           "b": 0.0,
           "a": 1.0
         },
-        "text": "Hello Professor Elie & Professor Holger & Professor Vuk",
+        "text": "This is a test",
         "fontSize": 16.8,
         "enabled": true
       }
     }
   },
   {
-    "$id": "caceafb8-18c7-42c4-88f9-209046195674",
+    "$id": "d9bfe3aa-17ef-4495-af8d-82b22a4fc4ef",
     "name": "Rock",
     "tag": "Untagged",
     "activeSelf": false,
@@ -457,7 +457,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "0590901b-4742-4722-9516-5d9eff53c4d4",
+        "$id": "1ef80ad3-8489-407f-adf0-5af08d02741c",
         "position": {
           "x": -3.1428566,
           "y": 8.564652,
@@ -507,7 +507,7 @@
         "enabled": true
       },
       "Rigidbody2D": {
-        "$id": "bec3ae25-41f6-44ee-b363-ed038ff1e5a3",
+        "$id": "fb7e3b3a-eb2d-40b5-9def-d5f8e37ca95b",
         "velocity": {
           "x": 0.0,
           "y": 0.0
@@ -524,7 +524,7 @@
     }
   },
   {
-    "$id": "c7f1b952-2fdf-402b-bf7e-fbaf335ce61b",
+    "$id": "23230892-ed08-4837-9890-1705fa906669",
     "name": "Flower",
     "tag": "Untagged",
     "activeSelf": true,
@@ -533,7 +533,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "1d05ab24-5ceb-4088-a6c7-39fb4824d18a",
+        "$id": "d0012578-10c3-4dc2-9ae6-17c764fd2de0",
         "position": {
           "x": -1.87651038,
           "y": 0.6391463,
@@ -570,7 +570,7 @@
     }
   },
   {
-    "$id": "0772ea08-3289-4b41-8e42-958d02a2e1dc",
+    "$id": "40c6c3b6-bd8e-4060-b441-45af605fb0eb",
     "name": "Pink Light",
     "tag": "Untagged",
     "activeSelf": true,
@@ -579,7 +579,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "7f44da9b-c7e6-4acf-8bee-175f9d3444d9",
+        "$id": "57e9b6c4-2102-4a34-8daa-5de3859eb3eb",
         "position": {
           "x": -4.39672,
           "y": 7.749035,
@@ -610,7 +610,7 @@
     }
   },
   {
-    "$id": "3b125991-7dc8-4d1e-a999-553396ed918e",
+    "$id": "479623a6-202a-4901-b7f3-445b6d4f30e9",
     "name": "PE",
     "tag": "Untagged",
     "activeSelf": true,
@@ -619,7 +619,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "ac4d1ec3-695f-43c2-8f20-ac0ae48cdd8c",
+        "$id": "12ea3f7d-bb69-48fd-aef2-fcfe7d534ac1",
         "position": {
           "x": -1.35716212,
           "y": 5.965455,
@@ -694,7 +694,7 @@
     }
   },
   {
-    "$id": "15075d3f-c1c9-4af3-bcc7-b5d2ac2bcc71",
+    "$id": "ad9b5704-0b6d-43e2-a922-4e171501fb56",
     "name": "Trigger",
     "tag": "Untagged",
     "activeSelf": true,
@@ -703,7 +703,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "e3c9d5e2-65a0-4cff-8204-9b24707c0eca",
+        "$id": "404b1a3f-748e-436a-a0e8-1c7851038f43",
         "position": {
           "x": -4.71512461,
           "y": -0.165186524,
@@ -743,7 +743,7 @@
     }
   },
   {
-    "$id": "ba27e8c8-d19d-4ed2-a5f0-c148fc11b4d4",
+    "$id": "2dccdf0f-faa1-4a0b-894b-3acf263251a2",
     "name": "Camera",
     "tag": "Untagged",
     "activeSelf": true,
@@ -752,7 +752,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "e2f06b63-afdd-42f9-8632-bc5306ac1d52",
+        "$id": "ff1d3892-5fa6-493c-a1fc-ac1cf72a5a22",
         "position": {
           "x": 0.0,
           "y": 4.0,
@@ -774,6 +774,7 @@
         "zoomIn": false,
         "zoomOut": false,
         "cameraMode": false,
+        "isTracking": false,
         "enabled": true
       },
       "Camera": {
@@ -783,7 +784,7 @@
     }
   },
   {
-    "$id": "aaa89853-11d0-449e-b159-f488aea28096",
+    "$id": "c44fe450-bb4a-4d07-8c4b-5a3a83f69250",
     "name": "TopLights",
     "tag": "Untagged",
     "activeSelf": true,
@@ -792,7 +793,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "2ea9d6a9-efea-43aa-8429-c6a6455c9a61",
+        "$id": "e108536d-c2b9-488d-9460-0c52ea69a887",
         "position": {
           "x": -11.4069242,
           "y": 10.6103878,
@@ -823,7 +824,7 @@
     }
   },
   {
-    "$id": "415aa4fa-3add-47a3-aee2-d71a04d5871b",
+    "$id": "08d654f4-6fd5-40f8-8cc9-fb65eadb6732",
     "name": "TopLights (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
@@ -832,7 +833,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "c5b102d6-c8de-45b5-b1a4-517c5ab1f5cc",
+        "$id": "b286f584-a4f7-43ac-9ebb-fe482dbf2a89",
         "position": {
           "x": 8.047621,
           "y": 8.428571,
@@ -863,7 +864,7 @@
     }
   },
   {
-    "$id": "297669c0-4919-4db6-abe3-5917c341a56f",
+    "$id": "35ea3a80-07c1-44e8-86a0-c1fb25f786c0",
     "name": "Big_Rock",
     "tag": "Untagged",
     "activeSelf": true,
@@ -872,7 +873,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "d5084a74-8a7d-45a9-86e5-840e5be0829d",
+        "$id": "999e9fa5-2a33-429b-8fb5-0cafa88b7fbd",
         "position": {
           "x": 5.854453,
           "y": 2.55233145,
@@ -924,7 +925,7 @@
     }
   },
   {
-    "$id": "13955c31-c442-4f24-8432-dacb8a960812",
+    "$id": "07721b77-180a-40b1-956e-a7f89ec38e34",
     "name": "Trigger (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
@@ -933,7 +934,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "35053dc6-91f7-4ffd-8289-5c458f6732ba",
+        "$id": "25997a5d-458d-4d1b-b2b1-f4547967e0e2",
         "position": {
           "x": -4.71512461,
           "y": 0.9040853,
