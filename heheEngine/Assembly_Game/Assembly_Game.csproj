@@ -46,9 +46,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CameraScript.cs" />
+    <Compile Include="CameraTracking.cs" />
     <Compile Include="ColorLight.cs" />
     <Compile Include="ColorScript.cs" />
     <Compile Include="BobbingScript.cs" />
+    <Compile Include="GameManager.cs" />
     <Compile Include="GrowScript.cs" />
     <Compile Include="PlayerScript.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

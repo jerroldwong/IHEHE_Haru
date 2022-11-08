@@ -25,6 +25,8 @@ namespace heheEngine
         public bool zoomOut = false;
         public bool cameraMode = false;
 
+        // controls camera tracking
+        public bool isTracking = true;
 
         private GameObject player;
         private Camera camera;
@@ -65,10 +67,10 @@ namespace heheEngine
 
 
             //performs the zoom out effect
-            if (zoomOut && camera.zoomLevel <= 6.0f)
+            if (zoomOut && camera.zoomLevel <= 5.0f)
             {
                 camera.zoomLevel += 0.1f;
-                if (camera.zoomLevel >= 6.0f)
+                if (camera.zoomLevel >= 5.0f)
                 {
                     zoomOut = false;
                     cameraMode = false;
@@ -103,8 +105,11 @@ namespace heheEngine
 
             else
             {
-                //make camera follow the player in zoomed out mode
-                transform.position = Vector3.Lerp(transform.position, playerTransform.position + new Vector3(0.0f, 3.0f, 0.0f), Time.deltaTime * 2.0f);
+                if (isTracking == true)
+                {
+                    //make camera follow the player in zoomed out mode
+                    transform.position = Vector3.Lerp(transform.position, playerTransform.position + new Vector3(0.0f, 3.0f, 0.0f), Time.deltaTime * 2.0f);
+                }
             }
         }
     }

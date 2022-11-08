@@ -112,17 +112,18 @@ namespace heheEngine
 
 
             //commands to zoom in and zoom out camera
-            if (Input.GetKeyDown(KeyCode.ALPHA_4))
+            if (Input.GetButtonMouseDown(MouseCode.RIGHT))
             {
                 cameraScript.cameraMode = true;
                 cameraScript.zoomIn = true;
 
-                Debug.Log("test");
+                Debug.Log("zoomIn");
             }
 
-            if (Input.GetKeyDown(KeyCode.ALPHA_5))
+            if (cameraScript.cameraMode && Input.GetButtonMouseUp(MouseCode.RIGHT))
             {
                 cameraScript.zoomOut = true;
+                Debug.Log("zoomOut");
             }
 
         }
