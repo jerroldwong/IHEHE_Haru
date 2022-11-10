@@ -37,7 +37,7 @@ uniform mat4 u_ScreenMatrix;
 void main() 
 {
     gl_Position = u_ScreenMatrix * vec4(vec3(a_position), 1.0);
-    vTexture = a_texture;
+    vTexture = vec2(a_texture.x, 1 - a_texture.y);
     vColor = a_color;
     vTextureIndex = a_textureIndex;
     vLayerIndex = a_layerIndex;

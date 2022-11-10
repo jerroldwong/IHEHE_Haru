@@ -1,0 +1,975 @@
+[
+  {
+    "$id": "87a0ff4e-bfc2-4015-b536-537cae573112",
+    "name": "Player",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "6f190e4b-e926-4467-ac20-8ebdb231735b",
+        "position": {
+          "x": -12.21633,
+          "y": 0.8344239,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 2,
+        "layer": 7,
+        "textureGUID": "2f4af7d863233d75e8c9786b901426f",
+        "enabled": true
+      },
+      "Rigidbody2D": {
+        "$id": "3c9c06f9-2389-496e-a450-8ab22742fc33",
+        "velocity": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "mass": 1.0,
+        "elasticity": 0.0,
+        "gravityScale": 1.0,
+        "drag": 0.5,
+        "isStatic": false,
+        "isKinematic": false,
+        "freezeRotation": true,
+        "enabled": true
+      },
+      "BoxCollider2D": {
+        "halfExtents": {
+          "x": 0.5,
+          "y": 1.6
+        },
+        "colliderShapeType": 1,
+        "isStatic": false,
+        "isTrigger": false,
+        "shapeRotation": 0.0,
+        "shapePosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "shapeScale": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "enabled": true
+      },
+      "PlayerScript": {
+        "intTest": 4,
+        "floatTest": 5.5,
+        "doubleTest": 0.0,
+        "boolTest": false,
+        "stringTest": "Hello",
+        "enumTest": 0,
+        "saif": "OMG",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "254b8af4-2e03-48ac-8095-731c8b3a2def",
+    "name": "Floor",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "5119a84b-b05c-4385-8bcd-4f8c6d6abad3",
+        "position": {
+          "x": 0.0,
+          "y": -1.29870117,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "BoxCollider2D": {
+        "halfExtents": {
+          "x": 20.0,
+          "y": 0.5
+        },
+        "colliderShapeType": 1,
+        "isStatic": true,
+        "isTrigger": false,
+        "shapeRotation": 0.0,
+        "shapePosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "shapeScale": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "3bcde116-02c5-408d-a4e0-139fcfdb51df",
+    "name": "Left Wall",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "083d95f6-53b1-4250-a14b-95acd9edc469",
+        "position": {
+          "x": -14.3571424,
+          "y": 4.3560605,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "BoxCollider2D": {
+        "halfExtents": {
+          "x": 0.5,
+          "y": 5.0
+        },
+        "colliderShapeType": 1,
+        "isStatic": true,
+        "isTrigger": false,
+        "shapeRotation": 0.0,
+        "shapePosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "shapeScale": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "a9c60e61-ee8e-43ec-8c29-2be7a94a0e61",
+    "name": "Right Wall",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "d2d6662a-422c-4629-937a-8ce48df328fa",
+        "position": {
+          "x": 13.1958857,
+          "y": 4.3560605,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "BoxCollider2D": {
+        "halfExtents": {
+          "x": 0.5,
+          "y": 5.0
+        },
+        "colliderShapeType": 1,
+        "isStatic": true,
+        "isTrigger": false,
+        "shapeRotation": 0.0,
+        "shapePosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "shapeScale": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "cd5ef0b2-ce2f-4eb7-a502-334e3a259eda",
+    "name": "Background",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "c03e22ee-ab31-4a42-aee3-1b1312987c38",
+        "position": {
+          "x": 0.0,
+          "y": 4.36109,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 30.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 3,
+        "layer": 0,
+        "textureGUID": "2f4af7d864c95b8fcfc425a3e8215319",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "e7b3c5cc-bb98-4e27-ac94-9c49e58d5beb",
+    "name": "Cat",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "6e28bbff-4d27-4343-b961-74bb34ede1d4",
+        "position": {
+          "x": -9.043816,
+          "y": 1.84920287,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 1,
+        "layer": 1,
+        "textureGUID": "2f4af7d863dee28bb39181ad25612ab",
+        "enabled": true
+      },
+      "Transparency": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "8565542e-6d4a-4996-ac3a-d4cabc5a3510",
+    "name": "Glob Glob",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "308bbdf0-863c-40b4-a092-9a72c16eb804",
+        "position": {
+          "x": -6.78923655,
+          "y": 2.46825838,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 2.0,
+          "y": 2.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 0,
+        "layer": 2,
+        "textureGUID": "2f4af7d86402135da9e19371e45f26e",
+        "enabled": true
+      },
+      "ColorScript": {
+        "speed": 6.0,
+        "enabled": true
+      },
+      "BobbingScript": {
+        "speed": 2.0,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "2c0fb709-9ec6-4ba6-9861-94784cebfdc6",
+    "name": "Text",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": true,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "27d77b62-6779-483a-9a0f-893abbfa7ce3",
+        "position": {
+          "x": 0.0,
+          "y": 199.999969,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "RectTransform": {
+        "$id": "bf2179b0-8651-4755-81ed-24416e48aa9a",
+        "anchoredPosition": {
+          "x": 0.0,
+          "y": 199.999969
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rectWidth": 850.0,
+        "rectHeight": 100.0,
+        "position": {
+          "x": 0.0,
+          "y": 199.999969,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "Text": {
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "text": "Hello Professor Elie & Professor Holger & Professor Vuk",
+        "fontSize": 16.8,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "664f5831-0eb4-4780-852f-2d59ecad10c9",
+    "name": "Rock",
+    "tag": "Untagged",
+    "activeSelf": false,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "2ebbf310-08c0-4dac-893c-38ca65649942",
+        "position": {
+          "x": -3.1428566,
+          "y": 8.564652,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 3.0,
+          "y": 3.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "BoxCollider2D": {
+        "halfExtents": {
+          "x": 0.5,
+          "y": 0.25
+        },
+        "colliderShapeType": 1,
+        "isStatic": false,
+        "isTrigger": false,
+        "shapeRotation": 0.0,
+        "shapePosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "shapeScale": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 5,
+        "layer": 3,
+        "textureGUID": "2f4af7d8638cac655970934b60b54012",
+        "enabled": true
+      },
+      "Rigidbody2D": {
+        "$id": "5f6064ed-6c5c-4aba-b2ff-c82624b8bc1a",
+        "velocity": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "mass": 0.5,
+        "elasticity": 0.5,
+        "gravityScale": 0.0,
+        "drag": 0.5,
+        "isStatic": false,
+        "isKinematic": false,
+        "freezeRotation": false,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "6a34043f-3ad1-4ef1-819c-f539e27d4981",
+    "name": "Flower",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "8a1a8a57-fdad-4466-9088-0c5c754cbf9b",
+        "position": {
+          "x": -1.87651038,
+          "y": 0.6391463,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "GrowScript": {
+        "isGrow": false,
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 6,
+        "layer": 4,
+        "textureGUID": "2f4af7d8631784984e76bee9cbd1979",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "564584d3-cd6d-42fc-bf2c-ee45e5b8ed82",
+    "name": "Pink Light",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "2df64798-9cf7-4957-93b9-bdb6cc6c941b",
+        "position": {
+          "x": -4.39672,
+          "y": 7.749035,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 10.0,
+          "y": 5.0,
+          "z": 5.0
+        },
+        "enabled": true
+      },
+      "PointLight2D": {
+        "color": {
+          "r": 0.983871,
+          "g": 0.214229941,
+          "b": 0.9031827,
+          "a": 0.5058824
+        },
+        "intensity": 1.0,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "9abab231-f402-4a8f-8f05-58db9373d954",
+    "name": "PE",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "4ae42d75-6b34-419f-8fe7-18c0bfd06a9f",
+        "position": {
+          "x": -1.35716212,
+          "y": 5.965455,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 179.9999
+        },
+        "scale": {
+          "x": 0.4999997,
+          "y": 0.4999997,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "ParticleEmitter": {
+        "isPaused": false,
+        "isAlive": true,
+        "layer": 5,
+        "currentType": 2,
+        "velocityBasedScaling": false,
+        "playOneShot": false,
+        "randomiseScale": false,
+        "velocityOverLifetime": false,
+        "scaleOverLifetime": true,
+        "colorOverLifetime": true,
+        "lifeTime": 8.0,
+        "emissionRate": 1,
+        "startScale": {
+          "x": 0.25,
+          "y": 0.25,
+          "z": 0.0
+        },
+        "endScale": {
+          "x": 0.25,
+          "y": 0.25,
+          "z": 0.0
+        },
+        "minScale": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "maxScale": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "startingVelocity": 1.0,
+        "endingVelocity": 0.75,
+        "startingRotation": 90.0,
+        "endingRotation": 180.0,
+        "startColor": {
+          "r": 0.8509804,
+          "g": 0.7372549,
+          "b": 0.9372549,
+          "a": 1.0
+        },
+        "endColor": {
+          "r": 0.8509804,
+          "g": 0.7372549,
+          "b": 0.9372549,
+          "a": 1.0
+        },
+        "coneAngle": 90.0,
+        "radius": 1.0,
+        "lineLength": 10.0,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "6f4f8a57-08eb-4179-b74c-8735b38d4e86",
+    "name": "Trigger",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "2f911729-4cbc-40dc-96a6-cac3d7a4e506",
+        "position": {
+          "x": -4.71512461,
+          "y": -0.165186524,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "BoxCollider2D": {
+        "halfExtents": {
+          "x": 1.0,
+          "y": 0.5
+        },
+        "colliderShapeType": 1,
+        "isStatic": false,
+        "isTrigger": true,
+        "shapeRotation": 0.0,
+        "shapePosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "shapeScale": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "0a0162e4-fe15-4ae5-a3a0-01bc370ad4ae",
+    "name": "Camera",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "d8e39679-b577-4611-9a14-8942310134c0",
+        "position": {
+          "x": 0.0,
+          "y": 4.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "CameraScript": {
+        "zoomIn": false,
+        "zoomOut": false,
+        "cameraMode": false,
+        "enabled": true
+      },
+      "Camera": {
+        "zoomLevel": 5.0,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "7329f3c8-a572-4509-82a4-158492aa5abe",
+    "name": "TopLights",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "c8d09d86-6b89-4dbd-86fe-be7357714546",
+        "position": {
+          "x": -11.4069242,
+          "y": 10.6103878,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 3.0,
+          "y": 3.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "PointLight2D": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 0.247058824
+        },
+        "intensity": 1.0,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "47ef9d10-aaf1-4e22-a742-95a2adb90491",
+    "name": "TopLights (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "eb9955f6-759d-4b34-8920-74239171916b",
+        "position": {
+          "x": 8.047621,
+          "y": 8.428571,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 15.0,
+          "y": 3.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "PointLight2D": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 0.384313732
+        },
+        "intensity": 1.0,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "ebcf4f32-2802-4906-91b2-f3e69c6d4a83",
+    "name": "Big_Rock",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "9b265a26-485e-4ccd-b5bc-e37890e39c5e",
+        "position": {
+          "x": 5.854453,
+          "y": 2.55233145,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 10.0,
+          "y": 10.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "BoxCollider2D": {
+        "halfExtents": {
+          "x": 0.5,
+          "y": 0.325
+        },
+        "colliderShapeType": 1,
+        "isStatic": true,
+        "isTrigger": false,
+        "shapeRotation": 0.0,
+        "shapePosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "shapeScale": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "enabled": true
+      },
+      "SpriteRenderer": {
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "spriteID": 12,
+        "layer": 6,
+        "textureGUID": "2f4af7d864cdbc3e9da83887970bd21d",
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "236e3158-ace3-46a6-a3cd-ea6ba3b153cb",
+    "name": "Trigger (Copy)",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "273d4704-04d4-4a5e-b961-af3c0ef3ed57",
+        "position": {
+          "x": -4.71512461,
+          "y": 0.9040853,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "BoxCollider2D": {
+        "halfExtents": {
+          "x": 1.0,
+          "y": 0.5
+        },
+        "colliderShapeType": 1,
+        "isStatic": false,
+        "isTrigger": true,
+        "shapeRotation": 0.0,
+        "shapePosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "shapeScale": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "enabled": true
+      }
+    }
+  }
+]

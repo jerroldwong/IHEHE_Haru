@@ -1,0 +1,84 @@
+[
+  {
+    "$id": "21e4b0fc-a1ee-4e2d-8cc9-b67df29245a1",
+    "name": "GameObject 2",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "f2757503-75ea-48ad-ba39-09e9b232b89f",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "Camera": {
+        "zoomLevel": 5.0,
+        "enabled": true
+      }
+    }
+  },
+  {
+    "$id": "e5154452-510b-4f7e-a1dc-7d9033703bd9",
+    "name": "UI GameObject 65539",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": true,
+    "parent": null,
+    "components": {
+      "RectTransform": {
+        "$id": "6b28dcf6-64c1-4bb1-8b8e-4a864ae9740f",
+        "anchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rectWidth": 100.0,
+        "rectHeight": 100.0,
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      }
+    }
+  }
+]
