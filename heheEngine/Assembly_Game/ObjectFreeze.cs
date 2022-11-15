@@ -11,6 +11,7 @@ namespace heheEngine
     {
         // params
         private Vector2 savedVelocity;
+        public bool isFrozen = false;
 
         public void FreezeObject(bool set)
         {
@@ -21,6 +22,8 @@ namespace heheEngine
                 savedVelocity = rb.velocity;                                    //save velocity, set velocity to 0.
                 rb.velocity = Vector2.zero;
                 //rb.constraints = RigidbodyConstraints2D.FreezeAll;              //constrain the object from moving.
+
+                isFrozen = true;
             }
 
             else if (!set)
@@ -29,6 +32,8 @@ namespace heheEngine
                 //rb.constraints = RigidbodyConstraints2D.None;
                 //rb.constraints = RigidbodyConstraints2D.FreezeRotation;
                 rb.velocity = savedVelocity;
+
+                isFrozen = false;
             }
 
 

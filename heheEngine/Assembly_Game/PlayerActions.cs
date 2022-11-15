@@ -38,16 +38,16 @@ namespace heheEngine
 
         public GameObject highlightedObj;
 
-        private void Awake()
+        public void Awake()
         {
             mainCam = GameObject.Find("Camera").GetComponent<Camera>();
             userInterface = GameObject.Find("UI Gameplay");
         }
 
-        void Start()
+        public void Start()
         {
             // to be done after porting UI_Controller
-            //SetCameraPower(CameraPowerType.POWER_TIMEPORTAL);
+            SetCameraPower(CameraPowerType.POWER_STASIS);
         }
 
         public GameObject GetFastFowardObject()
@@ -65,14 +65,56 @@ namespace heheEngine
             return currPowerType;
         }
 
+        public void SetCameraPower(CameraPowerType type)
+        {
+            //UI_Controller uiComponent = userInterface.GetComponent<UI_Controller>();
+            currPowerType = type;
+            switch (type)
+            {
+                case (CameraPowerType.POWER_TIMEPORTAL):
+                    {
+                        //FlashSkill = SpawnTimePortal;
+                        //uiComponent.EnableFastForwardProgressBar(false);
+                        //uiComponent.SetFlashTypeText("Portal");
+                        //uiComponent.SetFlashTypeOverlay(CameraPowerType.POWER_TIMEPORTAL);
+                        break;
+                    }
+                case (CameraPowerType.POWER_STASIS):
+                    {
+                        FlashSkill = FreezeObject;
+                        //uiComponent.EnableFastForwardProgressBar(false);
+                        //uiComponent.SetFlashTypeText("Stasis");
+                        //SetFlashTypeOverlay(CameraPowerType.POWER_STASIS);
+                        break;
+                    }
+                case (CameraPowerType.POWER_FASTFORWARD):
+                    {
+                        //FlashSkill = SelectToFastForward;
+                        //uiComponent.EnableFastForwardProgressBar(true);
+                        //uiComponent.SetFlashTypeText("Fast Forward");
+                        //uiComponent.SetFlashTypeOverlay(CameraPowerType.POWER_FASTFORWARD);
+                        break;
+                    }
+
+                case (CameraPowerType.POWER_PHASE):
+                    {
+                        //FlashSkill = SelectPhaseObject;
+                        //uiComponent.EnableFastForwardProgressBar(false);
+                        //uiComponent.SetFlashTypeText("Phaser");
+                        //uiComponent.SetFlashTypeOverlay(CameraPowerType.POWER_PHASE);
+                        break;
+                    }
+                default:
+                    break;
+            }
+        }
+
         // to do: check if raycasting is available, if have, port CheckForHighlightObject() & UnhighlightObject()
 
         //Camera Abilities
-        /*
+        
         void FreezeObject()
         {
-            Ray ray = mainCam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
-            RaycastHit2D hit = Physics2D.GetRayIntersection(ray);
 
             if (haveObjectsFrozen)
             {
@@ -80,25 +122,26 @@ namespace heheEngine
                 haveObjectsFrozen = false;
             }
 
-            if (hit.collider != null)
+            if (CameraScript.camHit.GetComponent<BoxCollider2D>() != null)
             {
-                if (hit.collider.tag == ("Prop"))
+
+                if (CameraScript.camHit.tag == "Prop")
                 {
-                    hit.transform.gameObject.GetComponent<ObjectFreeze>().FreezeObject(true);
-                    frozenObject = hit.transform.gameObject;
+                    CameraScript.camHit.GetComponent<ObjectFreeze>().FreezeObject(true);
+                    frozenObject = CameraScript.camHit;
                     haveObjectsFrozen = true;
+                    Debug.Log(CameraScript.camHit + "is frozen!");
                     return;
                 }
-
                 else
                 {
                     Debug.Log("Camera did not pick up a valid object to freeze");
                 }
             }
-
             else
             {
                 Debug.Log("Camera did not pick up anything to freeze");
+                return;
             }
         }
 
@@ -107,6 +150,6 @@ namespace heheEngine
             frozenObject.GetComponent<ObjectFreeze>().FreezeObject(false);
             frozenObject = null;
         }
-        */
+        
     }
 }

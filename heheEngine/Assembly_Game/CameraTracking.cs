@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace heheEngine
 {
+    // this script handles cameraTracking (disable camera tracking if player enters)
     public class CameraTracking : ScriptComponent
     {
         // params
@@ -41,7 +42,7 @@ namespace heheEngine
                 Debug.Log("collided");
             }
             */
-            Debug.Log("collided");
+            //Debug.Log("collided");
 
         }
 
@@ -49,7 +50,7 @@ namespace heheEngine
         {
             cameraScript.isTracking = true;
 
-            Debug.Log("left collider");
+            //Debug.Log("left collider");
         }
     }
 }

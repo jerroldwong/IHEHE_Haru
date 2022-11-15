@@ -1,9 +1,9 @@
-AppConfigData::windowWidth,0,1600
-AppConfigData::windowHeight,0,900
-AppConfigData::windowPosX,0,196
-AppConfigData::windowMaximised,2,0
+AppConfigData::windowWidth,0,1920
+AppConfigData::windowHeight,0,1017
+AppConfigData::windowPosX,0,0
+AppConfigData::windowMaximised,2,1
 AppConfigData::windowResizable,2,1
-AppConfigData::windowPosY,0,43
+AppConfigData::windowPosY,0,23
 AppConfigData::windowVSync,2,0
 AppConfigData::windowFullscreen,2,0
 AppConfigData::windowMinimised,2,0

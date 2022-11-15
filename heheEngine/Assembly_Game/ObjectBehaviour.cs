@@ -25,6 +25,7 @@ namespace heheEngine
 
         private GameObject player;
 
+        //Highlight colors
         Color portalHighlightColor;
         Color frozenHighlightColor;
         Color fastForwardHighlightColor;
@@ -49,6 +50,13 @@ namespace heheEngine
             defaultColor = new Color(1f, 1f, 1f, 0f);
 
             cameraScript = GameObject.Find("Camera").GetComponent<CameraScript>();
+
+            if (gameObject.name == "Flower 1")
+            {
+                canBeFrozen = true;
+                Debug.Log(gameObject.name + " has been added!");
+                Debug.Log("canBeFrozen is " + canBeFrozen);
+            }
         }
 
         public void FreezeObject(bool set)

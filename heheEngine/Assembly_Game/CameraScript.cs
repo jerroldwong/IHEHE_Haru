@@ -29,13 +29,30 @@ namespace heheEngine
         public bool isTracking = true;
 
         private GameObject player;
+        private GameObject camUI;
         private Camera camera;
         private Transform transform;
         private Transform playerTransform;
+        private BoxCollider2D cameraCollider;
+
+        private Vector3 mousePos;
+
+        public static GameObject camHit;
+
+        public void Start()
+        {
+            cameraCollider = gameObject.GetComponent<BoxCollider2D>();
+            camUI = GameObject.Find("Cam UI");
+            mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y,0);
+
+            cameraCollider.enabled = false;
+            camUI.SetActive(false);
+        }
 
         //Calls every frame
         public void Update()
         {
+
             //set component variables
             if (camera == null)
             {
@@ -76,10 +93,13 @@ namespace heheEngine
                 }
             }
 
-
             //move the camera only when you are zoomed in
             if (cameraMode)
             {
+                cameraCollider.enabled = true;
+                camUI.SetActive(true);
+                //gameObject.GetComponent<Transform>().position = mousePos;
+
                 if (Input.GetKey(KeyCode.UP_ARROW))
                 {
                     transform.Translate(new Vector3(0, 5 * Time.deltaTime, 0));
@@ -104,6 +124,9 @@ namespace heheEngine
 
             else
             {
+                cameraCollider.enabled = false;
+                camUI.SetActive(false);
+
                 if (isTracking == true)
                 {
                     //make camera follow the player in zoomed out mode
@@ -119,6 +142,12 @@ namespace heheEngine
                     //Debug.Log("camera is not tracking");
                 }
             }
+        }
+
+        public void OnTriggerEnter(GameObject other)
+        {
+            camHit = other;
+            Debug.Log(camHit.name + " from CameraScript");
         }
     }
 }

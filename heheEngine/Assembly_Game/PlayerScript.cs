@@ -42,19 +42,23 @@ namespace heheEngine
         CameraScript cameraScript;
         PlayerActions playerActions;
         Rigidbody2D rb;
+        GameObject camera;
 
         // movement variables
         //float moveLeft = -0.5f;
         //float moveRight = 0.5f;
 
-        void Start()
+        public void Start()
         {
             playerActions = gameObject.GetComponent<PlayerActions>();
+            camera = GameObject.Find("Camera");
+            camera.GetComponent<BoxCollider2D>().enabled = false;
         }
 
         //This scripts is called during the Update loop of the game loop
         public void Update()
         {
+
             if (cameraScript == null)
             {
                 cameraScript = GameObject.Find("Camera").GetComponent<CameraScript>();
@@ -122,7 +126,7 @@ namespace heheEngine
             {
                 cameraScript.cameraMode = true;
                 cameraScript.zoomIn = true;
-
+                camera.GetComponent<BoxCollider2D>().enabled = true;
                 Debug.Log("zoomIn");
             }
 
@@ -135,6 +139,7 @@ namespace heheEngine
             if (cameraScript.cameraMode && Input.GetButtonMouseDown(MouseCode.LEFT))
             {
                 playerActions.FlashSkill();
+                Debug.Log("Ability Cast!");
             }
 
         }

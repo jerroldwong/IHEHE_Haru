@@ -1,3 +1,7 @@
+guid: 0
+name: defaultpath
+path: defaultpath.default
+type: AssetType::DEFAULT
 guid: 2f4b8c7eaa5e80a368933b6721c0f964
 name: Base_081122_2218
 path: C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assets\Scenes\Base\Base_081122_2218.scene
@@ -6,10 +10,6 @@ guid: 2f4b5bc6ded4003cffa4701dec749864
 name: Base_061122_1210
 path: C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assets\Scenes\Base\Base_061122_1210.scene
 type: AssetType::SCENE
-guid: 0
-name: defaultpath
-path: defaultpath.default
-type: AssetType::DEFAULT
 guid: 2f4b82e1691d7f4f7cd24ad660b0200
 name: OMG
 path: C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assets\Prefabs\OMG.prefab
@@ -454,6 +454,18 @@ guid: 2f483e940f74f151f83b7d81cf0cf858
 name: VFX_CherryBlossom
 path: C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assets\Sprites\VFX\VFX_CherryBlossom.png
 type: AssetType::TEXTURE
+guid: 2f4c1a0ce42b378d3b7d7352385a557e
+name: Base_151122_2323
+path: C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assets\Scenes\Base\Base_151122_2323
+type: AssetType::BINARY
+guid: 2f4c1a1bda52428d4587735240bfd87f
+name: Base_151122_2315
+path: C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assets\Scenes\Base\Base_151122_2315
+type: AssetType::BINARY
+guid: 2f4c1a4eab1f7666e2273ef37df8c980
+name: Base_151122_2329
+path: C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assets\Scenes\Base\Base_151122_2329.scene
+type: AssetType::SCENE
 guid: 2f4af8324101669513b4d819deb8891a
 name: C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assets\Prefabs
 path: C:\Users\Admin\Desktop\IHEHE_Haru\heheEngine\Assets\Prefabs

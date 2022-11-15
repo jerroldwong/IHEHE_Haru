@@ -1,6 +1,6 @@
 [
   {
-    "$id": "38a4c1a2-1273-44ba-8e41-81a83590e495",
+    "$id": "1623ecba-da12-47d6-a959-3ca1182b8331",
     "name": "Camera",
     "tag": "Untagged",
     "activeSelf": true,
@@ -9,7 +9,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "60f2dbb7-eef2-4927-b5ba-9191cb2094c8",
+        "$id": "2fbd9376-0e42-4178-93b4-a7f27a2948f0",
         "position": {
           "x": 0.0,
           "y": 0.0,
@@ -60,7 +60,7 @@
     }
   },
   {
-    "$id": "96b72c06-002e-4964-80ed-20fe56c77f61",
+    "$id": "68817e30-435b-49de-ac96-0cb7bc4205ad",
     "name": "Ground",
     "tag": "Untagged",
     "activeSelf": true,
@@ -69,7 +69,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "7073986a-4bde-4921-98f7-501193356d24",
+        "$id": "534127a7-1dac-468f-bedf-1fd10739b590",
         "position": {
           "x": 0.0,
           "y": -0.319517076,
@@ -102,7 +102,7 @@
     }
   },
   {
-    "$id": "51d4aaaf-2277-43ec-99d3-9e8f1ff82199",
+    "$id": "ea344437-064f-4120-8cc1-1d394ea7ace2",
     "name": "Sakura Tree",
     "tag": "Untagged",
     "activeSelf": true,
@@ -111,7 +111,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "86335819-d557-4f4c-ac5d-f868c3a72a53",
+        "$id": "6f521b47-6932-41c2-82c9-6e586528b23b",
         "position": {
           "x": -1.42913222,
           "y": 0.9198833,
@@ -144,7 +144,7 @@
     }
   },
   {
-    "$id": "389c448c-f1d5-4c31-990d-73e8ad4883d4",
+    "$id": "2a5f073c-fdb5-4ed2-8781-3c6e1cbbaa3b",
     "name": "Exit Sign",
     "tag": "Untagged",
     "activeSelf": true,
@@ -153,7 +153,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "b10397a9-72d6-47f6-b7fa-a2346cfce42d",
+        "$id": "7ab17809-4733-449f-aa93-3a9efde36005",
         "position": {
           "x": 4.06735849,
           "y": -2.0,
@@ -186,7 +186,7 @@
     }
   },
   {
-    "$id": "0bb23096-319e-44e9-b2ae-4fb6d281da41",
+    "$id": "b35187cc-46f3-4e45-9d3f-e704b5138f3b",
     "name": "Ground Hitbox",
     "tag": "Untagged",
     "activeSelf": true,
@@ -195,7 +195,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "81189e54-04bc-4d9e-b754-7af17dfd9a74",
+        "$id": "eaf2a13f-152b-44d0-a4f5-2cd8dd86f22a",
         "position": {
           "x": 0.0,
           "y": -4.25437,
@@ -235,7 +235,7 @@
     }
   },
   {
-    "$id": "f5f08957-0e50-4929-8939-f3e8375e0ea8",
+    "$id": "632dc985-5ee4-490b-bc8f-5dd059d6b281",
     "name": "Background Container",
     "tag": "Untagged",
     "activeSelf": true,
@@ -244,7 +244,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "80aaa72a-1b1d-423c-9308-b27ffa6b59be",
+        "$id": "729efe44-6cac-4459-bf80-b7cbcc590ec2",
         "position": {
           "x": 0.0,
           "y": 0.0,
@@ -265,18 +265,18 @@
     }
   },
   {
-    "$id": "8457e0e3-ef41-4264-acae-f6defdbbf892",
+    "$id": "ea9dc376-83c9-4542-b4c7-fc4f1d061679",
     "name": "Background",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "f5f08957-0e50-4929-8939-f3e8375e0ea8"
+      "$ref": "632dc985-5ee4-490b-bc8f-5dd059d6b281"
     },
     "components": {
       "Transform": {
-        "$id": "526c5ae0-91b8-49ff-aaf0-d8b0ed9d788f",
+        "$id": "73bea830-ec3c-4e3c-86cd-b3fa38365d6b",
         "position": {
           "x": 0.0,
           "y": -0.284973443,
@@ -309,18 +309,18 @@
     }
   },
   {
-    "$id": "12a35dff-f9d0-425b-9e36-64a24337ccb5",
+    "$id": "e2fc9b85-b221-47ca-a986-4651cdb7ca9b",
     "name": "Background Sky",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "f5f08957-0e50-4929-8939-f3e8375e0ea8"
+      "$ref": "632dc985-5ee4-490b-bc8f-5dd059d6b281"
     },
     "components": {
       "Transform": {
-        "$id": "7ec997ff-46ae-4d6d-8938-dcf816117774",
+        "$id": "cd9331ad-d1df-4171-9ba9-1106096e162f",
         "position": {
           "x": 0.0,
           "y": 0.375,
@@ -353,7 +353,7 @@
     }
   },
   {
-    "$id": "805c43f1-e85c-4f9e-b737-98684d77abb9",
+    "$id": "96e03995-8110-4496-a005-e58f9a9c8202",
     "name": "Shed Container",
     "tag": "Untagged",
     "activeSelf": true,
@@ -362,7 +362,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "22c56910-13fe-47ce-8ac8-8a829e186f17",
+        "$id": "5402a9bc-2738-4ac3-8ad4-c8da4e67aa32",
         "position": {
           "x": 0.0,
           "y": 0.0,
@@ -383,18 +383,18 @@
     }
   },
   {
-    "$id": "37835057-a200-4197-99bb-413619847f0a",
+    "$id": "fdbf8a6f-c462-44eb-a268-023353a17dbf",
     "name": "Shed",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "805c43f1-e85c-4f9e-b737-98684d77abb9"
+      "$ref": "96e03995-8110-4496-a005-e58f9a9c8202"
     },
     "components": {
       "Transform": {
-        "$id": "dc56109f-ece1-44db-905a-6c608875a99e",
+        "$id": "6896f0ba-3971-4a1f-a432-ea0b5033d4a8",
         "position": {
           "x": -4.12895536,
           "y": -1.59381163,
@@ -427,18 +427,18 @@
     }
   },
   {
-    "$id": "b2870202-8f91-4a60-87ad-e913b6850b55",
+    "$id": "e9ec9aec-5be5-4c16-bd2b-a69844b06e1b",
     "name": "Shed Leg",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "805c43f1-e85c-4f9e-b737-98684d77abb9"
+      "$ref": "96e03995-8110-4496-a005-e58f9a9c8202"
     },
     "components": {
       "Transform": {
-        "$id": "78aa6644-eb93-4901-8b99-9effd02c508b",
+        "$id": "9dda35d6-d77e-44c3-9036-ff1020f6322f",
         "position": {
           "x": -1.28123927,
           "y": -2.30702162,
@@ -471,7 +471,7 @@
     }
   },
   {
-    "$id": "c203b028-1463-4338-a579-f06075450fd5",
+    "$id": "d23c8697-4829-4980-bb10-fea35e370b82",
     "name": "Fence Container",
     "tag": "Untagged",
     "activeSelf": true,
@@ -480,7 +480,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "e495aad4-35a8-4c0a-a1ef-f607b1630245",
+        "$id": "8b6c6bbd-0ee2-41fc-b4bf-f01f4c50b7cf",
         "position": {
           "x": 0.0,
           "y": 0.0,
@@ -501,18 +501,18 @@
     }
   },
   {
-    "$id": "dd8c6427-4ef4-4ec2-9aa4-d325405d4268",
+    "$id": "e20ad8f4-3921-4685-a593-45de7d9d8d29",
     "name": "Fence 02",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "ed55a6ae-c7e1-44ee-86f2-fd14497f98c2",
+        "$id": "2ca18bb2-8311-4e4e-9fce-81465d9ee1ee",
         "position": {
           "x": 4.50777435,
           "y": -2.10535336,
@@ -545,18 +545,18 @@
     }
   },
   {
-    "$id": "fbcf7d41-bc7f-49b5-b561-761b58ce5681",
+    "$id": "86d59a47-29cc-409b-94db-09742bf57551",
     "name": "Fence 01",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "e7f726ab-aa5e-47f7-81c9-b3627f0cf525",
+        "$id": "45137d65-f7bc-4520-8de6-0e8152cb6272",
         "position": {
           "x": 5.443869,
           "y": -2.110535,
@@ -589,18 +589,18 @@
     }
   },
   {
-    "$id": "4e7427aa-5edc-4ce2-af0a-b7d1c7e334c6",
+    "$id": "ffc9a289-3cad-44c9-a859-0f5a8613b74a",
     "name": "Fence 02 (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "6493ce74-c4d9-4787-baad-0ecc94164c64",
+        "$id": "f4803ae4-d95f-4f36-a671-7b4d2289fe10",
         "position": {
           "x": 6.353199,
           "y": -2.06822062,
@@ -633,18 +633,18 @@
     }
   },
   {
-    "$id": "9209a039-c50a-4ca8-b5ee-1e46cff101c7",
+    "$id": "b8ea36dd-111c-4e80-8817-4f28ae0a3fea",
     "name": "Fence 01 (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "2a1f6b84-171d-4dce-a5c5-bf995de24369",
+        "$id": "bb80fe1f-0102-456a-b2e7-bf9500973a49",
         "position": {
           "x": 7.271157,
           "y": -2.090674,
@@ -677,18 +677,18 @@
     }
   },
   {
-    "$id": "7e9dc455-0d5b-450a-8e29-3aa0b709657a",
+    "$id": "51ef492d-ad7f-49ae-be9e-4ee8d2d55fdb",
     "name": "Fence 02 (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "166a934e-7dc2-4cb2-b358-a6b0f4abec0c",
+        "$id": "163b52b2-ee50-4671-8954-fc3b82d22115",
         "position": {
           "x": 8.202075,
           "y": -2.06563,
@@ -721,18 +721,18 @@
     }
   },
   {
-    "$id": "eb26267f-f209-4720-b91a-1a8eec476c25",
+    "$id": "e8be3ccb-52de-494b-a4af-17ac8a80842e",
     "name": "Fence 01 (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "82a28b91-5082-4f75-9d46-8c3a9739b1e8",
+        "$id": "335bccf0-8257-43f3-a8db-2b041ac19839",
         "position": {
           "x": -0.196892083,
           "y": -2.110535,
@@ -765,18 +765,18 @@
     }
   },
   {
-    "$id": "88c1ee04-ea38-4844-9d2a-a39cc0bba2e5",
+    "$id": "aeee404a-17cb-4aa7-b580-8b8dfe125269",
     "name": "Fence 02 (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "eb88bb8e-a6a1-4a07-8b64-3c477d7f4d96",
+        "$id": "4030376c-ce9e-44a0-8bc3-ea65f31c63cb",
         "position": {
           "x": -3.00172472,
           "y": -2.10535336,
@@ -809,18 +809,18 @@
     }
   },
   {
-    "$id": "4f0ebaf4-7400-4152-80fa-c567bc0710e0",
+    "$id": "d58d001b-be06-4639-ac16-679ba389c28b",
     "name": "Fence 01 (Copy) (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "ed49c898-13e5-4396-b248-30e12218b461",
+        "$id": "f9b135d5-e896-46f6-8be2-30fa6f3f23af",
         "position": {
           "x": -2.06045,
           "y": -2.110535,
@@ -853,18 +853,18 @@
     }
   },
   {
-    "$id": "3652f6ec-68d7-4d71-ad84-81e950b2b2b0",
+    "$id": "b761a9a6-9e60-4874-9be5-7064b4427391",
     "name": "Fence 02 (Copy) (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "20e591f4-9264-40fa-a6c2-9ea69d75c8ec",
+        "$id": "f399463a-3ee8-4448-b192-c2b4df18cafd",
         "position": {
           "x": -1.1381669,
           "y": -2.10535336,
@@ -897,18 +897,18 @@
     }
   },
   {
-    "$id": "bef2ce02-4e82-4c86-8ac1-bc77ed0731f9",
+    "$id": "5beea260-956d-4305-b798-2559adce4b88",
     "name": "Fence 01 (Copy) (Copy) (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "1ac20359-da28-490f-94ab-a17dcdefff26",
+        "$id": "69e4c8c9-e965-474a-a10d-27646d45b96d",
         "position": {
           "x": -3.934371,
           "y": -2.12262464,
@@ -941,18 +941,18 @@
     }
   },
   {
-    "$id": "5d1ee8dc-f30a-4a53-968f-4ca0a4611b59",
+    "$id": "2f92ff19-76a6-4d4f-a263-6ef2958d34db",
     "name": "Fence 02 (Copy) (Copy) (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "1c6af379-aef2-44e6-804e-a85296f39dff",
+        "$id": "c6df0070-1e75-4adc-9235-cb8929f24f8d",
         "position": {
           "x": -4.88600874,
           "y": -2.10535336,
@@ -985,18 +985,18 @@
     }
   },
   {
-    "$id": "c0bdfca9-41a2-4a84-9fb2-e4576fb41c13",
+    "$id": "64b05588-3aed-4273-81c3-9b80071ee2d1",
     "name": "Fence 01 (Copy) (Copy) (Copy) (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "d6bb336f-7b87-487a-b28a-0aa56eaf01a3",
+        "$id": "45d8fb28-88ff-4c59-8448-5ae3f330c49a",
         "position": {
           "x": -5.83074474,
           "y": -2.12262464,
@@ -1029,18 +1029,18 @@
     }
   },
   {
-    "$id": "288e2f62-cd5c-4607-a63c-cf7183e521e5",
+    "$id": "e5e700c8-23be-4ab7-bc7e-b4d9e3416668",
     "name": "Fence 02 (Copy) (Copy) (Copy) (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "cd2366f9-b8aa-4963-8264-b582a1674487",
+        "$id": "9aded38b-1de9-412d-9a3a-f4d1fa38d7d6",
         "position": {
           "x": -6.77201939,
           "y": -2.10535336,
@@ -1073,18 +1073,18 @@
     }
   },
   {
-    "$id": "dfa663f7-2d9f-44c5-b875-c60b8f5f4574",
+    "$id": "513c108c-0673-4022-afd0-1074981ad270",
     "name": "Fence 01 (Copy) (Copy) (Copy) (Copy) (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "c203b028-1463-4338-a579-f06075450fd5"
+      "$ref": "d23c8697-4829-4980-bb10-fea35e370b82"
     },
     "components": {
       "Transform": {
-        "$id": "2bb0a91b-c6fb-49c5-92f6-8bbdb9c27c90",
+        "$id": "58548883-c134-46f3-b5b1-ec0e1e3c443f",
         "position": {
           "x": -7.71675444,
           "y": -2.12262464,
@@ -1117,7 +1117,7 @@
     }
   },
   {
-    "$id": "c1b50d7d-c070-4572-8836-54b2056daf34",
+    "$id": "d29c9501-2a05-44a7-9f6c-c1e4bf4add69",
     "name": "Foreground",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1126,7 +1126,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "37fc5fb5-2cd7-4e44-bb77-5adc08224f7e",
+        "$id": "ef6699ed-fcc0-473f-973c-1bc615cbf026",
         "position": {
           "x": 0.0,
           "y": -0.3022455,
@@ -1159,7 +1159,7 @@
     }
   },
   {
-    "$id": "f26fee02-b25c-4bdf-925d-3154da1a635b",
+    "$id": "8a00df63-c243-400a-8cc9-4b2ee6298c71",
     "name": "Table",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1168,7 +1168,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "9f2f8733-9c02-48cc-846a-0354806fc6ee",
+        "$id": "0e1cbb3b-9732-47d7-996c-9ef8530d6f38",
         "position": {
           "x": -4.575209,
           "y": -3.076643,
@@ -1201,7 +1201,7 @@
     }
   },
   {
-    "$id": "37efe841-8d4b-47af-a1f2-ce0972b4189b",
+    "$id": "87caa54d-f9a7-439e-9e5e-741446944607",
     "name": "Flower 1",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1210,10 +1210,10 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "a4fd5f84-343a-4cb0-a3b4-cad75404f3e9",
+        "$id": "32b96b0a-8394-4e05-bfa8-4f6961b94edc",
         "position": {
-          "x": 2.11155438,
-          "y": -2.76892376,
+          "x": 0.0,
+          "y": 0.0,
           "z": 0.0
         },
         "rotation": {
@@ -1227,23 +1227,11 @@
           "z": 1.0
         },
         "enabled": true
-      },
-      "SpriteRenderer": {
-        "color": {
-          "r": 1.0,
-          "g": 1.0,
-          "b": 1.0,
-          "a": 1.0
-        },
-        "spriteID": 0,
-        "layer": 5,
-        "textureGUID": "2f4af7d8631784984e76bee9cbd1979",
-        "enabled": true
       }
     }
   },
   {
-    "$id": "d1fc18bd-e784-498e-b851-25dfa2bdc1e6",
+    "$id": "c3bdbeec-dd4b-4380-a78f-e15b15030f24",
     "name": "Flower 2",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1252,7 +1240,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "34a38782-89c9-41dc-8481-34c85607cd77",
+        "$id": "5c3031dc-72d9-4166-ada7-424b380fd5da",
         "position": {
           "x": 0.0,
           "y": 0.0,
@@ -1273,7 +1261,7 @@
     }
   },
   {
-    "$id": "3367e1f2-0246-4deb-8c9a-c8f9a5963f9c",
+    "$id": "7b366030-24d3-4640-a976-394e45af9db2",
     "name": "Flower 3",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1282,7 +1270,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "ff3c1f0b-82d7-483f-8d06-9d9e5ef21979",
+        "$id": "196eaea9-10b3-4917-a34a-cf563d4c2773",
         "position": {
           "x": 0.0,
           "y": 0.0,
@@ -1303,7 +1291,7 @@
     }
   },
   {
-    "$id": "20b1948c-3f71-49c7-b293-8dc71ff0a69f",
+    "$id": "63b5c295-d9e6-4df0-9b1c-05ffe00da806",
     "name": "Player",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1312,7 +1300,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "224ef09f-b1b5-4cf6-82d8-d60aaff80c17",
+        "$id": "4245c86a-3d5e-4f60-b04e-d6e0439cb497",
         "position": {
           "x": 0.0,
           "y": -2.47150326,
@@ -1358,7 +1346,7 @@
         "enabled": true
       },
       "Rigidbody2D": {
-        "$id": "73d2608a-600a-4520-a799-2eb838becc49",
+        "$id": "083e13c9-9d54-48f8-8aad-5ea9d0dd8252",
         "velocity": {
           "x": 0.0,
           "y": 0.0
@@ -1394,7 +1382,7 @@
     }
   },
   {
-    "$id": "4f6b07c9-00d0-4caa-ab34-4836c2297b9f",
+    "$id": "b22e3e15-6185-4078-b461-1fbce45f88fd",
     "name": "leftHitbox",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1403,7 +1391,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "cdefd721-d883-421a-a464-eee4a6455ba4",
+        "$id": "5e06dd76-f02e-488e-9c65-a4ad06c08035",
         "position": {
           "x": -2.82672644,
           "y": 1.51734161,
@@ -1425,7 +1413,7 @@
         "enabled": true
       },
       "Rigidbody2D": {
-        "$id": "f69f65a8-a84b-4045-b7f5-c2782f8f9011",
+        "$id": "cec4208d-bab5-43db-badb-730f5d2a1ff2",
         "velocity": {
           "x": 0.0,
           "y": 0.0
@@ -1461,7 +1449,7 @@
     }
   },
   {
-    "$id": "4acf2092-eff0-4eb2-8602-2a78a8cbedd4",
+    "$id": "a764aad4-696a-4038-bc1b-55f3d5361a5f",
     "name": "rightHitbox",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1470,7 +1458,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "a3797fbf-9670-424a-a0d5-d0c8ead0fae2",
+        "$id": "070f4f9c-22d5-449e-a494-315292d39e27",
         "position": {
           "x": 2.65122676,
           "y": 1.51830482,
@@ -1511,7 +1499,7 @@
         "enabled": true
       },
       "Rigidbody2D": {
-        "$id": "788a2112-b8e2-4f1b-a337-18c99acbcdcb",
+        "$id": "613772af-e622-4dbd-a84d-8384fc8bfbfb",
         "velocity": {
           "x": 0.0,
           "y": 0.0
@@ -1528,7 +1516,7 @@
     }
   },
   {
-    "$id": "8e050add-d85d-431b-ab61-8d6eb476f12a",
+    "$id": "11092610-5393-42ef-a2c6-5c8566405754",
     "name": "leftBoundary",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1537,7 +1525,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "56f29ce9-2a84-4429-b64b-ae1d8a95c44c",
+        "$id": "4bfab34b-342f-4743-93dd-4d595c3bd7cd",
         "position": {
           "x": -7.46262,
           "y": 1.51734161,
@@ -1580,7 +1568,7 @@
     }
   },
   {
-    "$id": "aafbfbf9-2061-4185-8713-d95c7aaeb858",
+    "$id": "18eedd93-6f3f-4229-92fd-91a545bcdf3c",
     "name": "rightBoundary",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1589,7 +1577,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "d7939b6c-a6be-48b4-a747-77f4ea485b30",
+        "$id": "b7b8fca7-e5d9-4fc7-a14b-fe56b1442af3",
         "position": {
           "x": 7.37679,
           "y": 1.51734161,
@@ -1632,7 +1620,7 @@
     }
   },
   {
-    "$id": "b51ee463-8ba2-4886-9594-1d75ffb260b3",
+    "$id": "cdb4540a-2aa1-4dec-9b14-0461aa408be1",
     "name": "Bush Container",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1641,7 +1629,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "18a21174-792b-42f2-bf4b-e358f86c0d24",
+        "$id": "474fa90c-a684-42b9-b567-973f65006848",
         "position": {
           "x": 0.0,
           "y": 0.0,
@@ -1662,18 +1650,18 @@
     }
   },
   {
-    "$id": "56ee62a0-ed34-4dca-b443-09e5468114a1",
+    "$id": "9383dd27-eecf-4a7d-9c86-2e90ca3505d2",
     "name": "Bush",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "b51ee463-8ba2-4886-9594-1d75ffb260b3"
+      "$ref": "cdb4540a-2aa1-4dec-9b14-0461aa408be1"
     },
     "components": {
       "Transform": {
-        "$id": "71589e86-b5d2-49f5-9061-5fecebb9e41e",
+        "$id": "d6719457-dfd9-4d56-bbac-14c8d8920882",
         "position": {
           "x": 5.78497458,
           "y": -2.339378,
@@ -1706,18 +1694,18 @@
     }
   },
   {
-    "$id": "c14834e1-55cd-4dd5-9afb-cba6160f9e86",
+    "$id": "ea1a30fb-aaf1-4661-8bd2-88fb282ffcc4",
     "name": "Bush (Copy)",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "b51ee463-8ba2-4886-9594-1d75ffb260b3"
+      "$ref": "cdb4540a-2aa1-4dec-9b14-0461aa408be1"
     },
     "components": {
       "Transform": {
-        "$id": "f1d5cfbc-4b4b-4c30-be06-24ea0e40a8ed",
+        "$id": "97211db0-6956-4748-b03f-a8edfabd649b",
         "position": {
           "x": 1.34196973,
           "y": -2.21243525,
@@ -1750,18 +1738,18 @@
     }
   },
   {
-    "$id": "df4f01c8-70ac-4dda-ba31-b2730fbeddfd",
+    "$id": "b8ada24e-a8e1-4436-9ad6-1b1b90cb252c",
     "name": "Big Bush",
     "tag": "Untagged",
     "activeSelf": true,
     "isStatic": false,
     "isUI": false,
     "parent": {
-      "$ref": "b51ee463-8ba2-4886-9594-1d75ffb260b3"
+      "$ref": "cdb4540a-2aa1-4dec-9b14-0461aa408be1"
     },
     "components": {
       "Transform": {
-        "$id": "521a60f8-d64c-4fa8-a268-f07941beeb8a",
+        "$id": "1224456d-9680-4759-9c64-17055d942724",
         "position": {
           "x": 6.556511E-07,
           "y": -2.049223,
@@ -1794,7 +1782,7 @@
     }
   },
   {
-    "$id": "c052f20c-98a4-4347-a341-2abb77f31313",
+    "$id": "85b2cd0e-1f7c-4ad0-9d68-edafd5335888",
     "name": "Brain",
     "tag": "Untagged",
     "activeSelf": true,
@@ -1803,7 +1791,7 @@
     "parent": null,
     "components": {
       "Transform": {
-        "$id": "71dfb7b4-ce98-4438-b56d-884453246940",
+        "$id": "7bc960c3-661e-42ac-8f42-fb225ee40378",
         "position": {
           "x": 0.0,
           "y": 0.0,
@@ -1822,48 +1810,6 @@
         "enabled": true
       },
       "GameManager": {
-        "enabled": true
-      }
-    }
-  },
-  {
-    "$id": "06063bf7-5158-471b-ae73-48243a0af743",
-    "name": "Cam UI",
-    "tag": "Untagged",
-    "activeSelf": true,
-    "isStatic": false,
-    "isUI": false,
-    "parent": null,
-    "components": {
-      "Transform": {
-        "$id": "43337c07-8549-48f1-ae41-0f218703293a",
-        "position": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "rotation": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "scale": {
-          "x": 15.0,
-          "y": 15.0,
-          "z": 1.0
-        },
-        "enabled": true
-      },
-      "SpriteRenderer": {
-        "color": {
-          "r": 1.0,
-          "g": 1.0,
-          "b": 1.0,
-          "a": 1.0
-        },
-        "spriteID": 0,
-        "layer": 10,
-        "textureGUID": "2f4afa04ab10805ccadde778bba8d34a",
         "enabled": true
       }
     }
