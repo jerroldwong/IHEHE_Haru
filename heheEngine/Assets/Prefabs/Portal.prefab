@@ -1,0 +1,35 @@
+[
+  {
+    "$id": "485b96eb-61fd-4bd0-b514-1220a8c02754",
+    "name": "Portal",
+    "tag": "Untagged",
+    "activeSelf": true,
+    "isStatic": false,
+    "isUI": false,
+    "parent": null,
+    "components": {
+      "Transform": {
+        "$id": "666c2b46-e3fa-4116-b8e8-b23eb1e258d4",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "enabled": true
+      },
+      "Portal": {
+        "enabled": true
+      }
+    }
+  }
+]

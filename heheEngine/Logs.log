@@ -1,0 +1,20 @@
+[3] [16/11/2022] [10:27:43]	System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+  at System.String.Substring (System.Int32 startIndex, System.Int32 length) [0x00031] in <ba770f7db8ff45699e1955c36f94a06a>:0 
+  at heheEngine.MonoJSONSerializer.DeserialiseSingleGameObject (heheEngine.GameObject newInstance, System.String inJsonString, Newtonsoft.Json.Linq.JArray gameObjectArray, System.Int32 arrayIndex) [0x00025] in <d671979f000d43308b19f0ae76335090>:0 
+  at heheEngine.MonoJSONSerializer.DeserialisePrefab (System.String inFilePath, System.String inSceneName) [0x00041] in <d671979f000d43308b19f0ae76335090>:0 
+[3] [16/11/2022] [10:27:50]	System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+  at System.String.Substring (System.Int32 startIndex, System.Int32 length) [0x00031] in <ba770f7db8ff45699e1955c36f94a06a>:0 
+  at heheEngine.MonoJSONSerializer.DeserialiseSingleGameObject (heheEngine.GameObject newInstance, System.String inJsonString, Newtonsoft.Json.Linq.JArray gameObjectArray, System.Int32 arrayIndex) [0x00025] in <d671979f000d43308b19f0ae76335090>:0 
+  at heheEngine.MonoJSONSerializer.DeserialisePrefab (System.String inFilePath, System.String inSceneName) [0x00041] in <d671979f000d43308b19f0ae76335090>:0 
+[3] [16/11/2022] [10:28:26]	System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+  at System.String.Substring (System.Int32 startIndex, System.Int32 length) [0x00031] in <ba770f7db8ff45699e1955c36f94a06a>:0 
+  at heheEngine.MonoJSONSerializer.DeserialiseSingleGameObject (heheEngine.GameObject newInstance, System.String inJsonString, Newtonsoft.Json.Linq.JArray gameObjectArray, System.Int32 arrayIndex) [0x00025] in <d671979f000d43308b19f0ae76335090>:0 
+  at heheEngine.MonoJSONSerializer.DeserialiseObjects (System.String inFilePath, System.String inSceneName) [0x00062] in <d671979f000d43308b19f0ae76335090>:0 
+[3] [16/11/2022] [10:30:02]	System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+  at System.String.Substring (System.Int32 startIndex, System.Int32 length) [0x00031] in <ba770f7db8ff45699e1955c36f94a06a>:0 
+  at heheEngine.MonoJSONSerializer.DeserialiseSingleGameObject (heheEngine.GameObject newInstance, System.String inJsonString, Newtonsoft.Json.Linq.JArray gameObjectArray, System.Int32 arrayIndex) [0x00025] in <d671979f000d43308b19f0ae76335090>:0 
+  at heheEngine.MonoJSONSerializer.DeserialiseObjects (System.String inFilePath, System.String inSceneName) [0x00062] in <d671979f000d43308b19f0ae76335090>:0 

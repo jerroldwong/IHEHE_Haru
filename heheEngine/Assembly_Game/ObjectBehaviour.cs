@@ -62,7 +62,14 @@ namespace heheEngine
             {
                 canBePhased = true;
                 Debug.Log(gameObject.name + " has been added!");
-                Debug.Log("canBePhased is " + canBeFrozen);
+                Debug.Log("canBePhased is " + canBePhased);
+            }
+
+            if (gameObject.name == "revealParent")
+            {
+                canBePortaled = true;
+                Debug.Log(gameObject.name + " has been added!");
+                Debug.Log("canBePortaled is " + canBePortaled);
             }
         }
 
@@ -95,6 +102,30 @@ namespace heheEngine
                 {
                     gameObject.GetComponent<ObjectPhase>().PhaseObject(false);
                 }
+            }
+        }
+
+        public void RevealObject(bool set)
+        {
+            if (canBePortaled)
+            {
+                if (set)
+                {
+                    gameObject.GetComponent<ObjectReveal>().RevealObject(true, canBePortaled);
+                }
+
+                else
+                {
+                    gameObject.GetComponent<ObjectReveal>().RevealObject(false, canBePortaled);
+                }
+            }
+        }
+
+        public void FastForwardObject()
+        {
+            if (canBeFastForwarded)
+            {
+                gameObject.GetComponent<ObjectFF>().FastForwardObject(1f);
             }
         }
     }

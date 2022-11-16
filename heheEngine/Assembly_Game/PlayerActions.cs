@@ -18,6 +18,7 @@ namespace heheEngine
         private GameObject userInterface;
 
         //for portal function
+        GameObject Portal;
         private GameObject portalObj;
         private bool doesPortalExist = false;
 
@@ -42,6 +43,7 @@ namespace heheEngine
         {
             mainCam = GameObject.Find("Camera").GetComponent<Camera>();
             userInterface = GameObject.Find("UI Gameplay");
+            Portal = GameObject.Find("Portal");
         }
 
         public void Start()
@@ -74,7 +76,7 @@ namespace heheEngine
             {
                 case (CameraPowerType.POWER_TIMEPORTAL):
                     {
-                        //FlashSkill = SpawnTimePortal;
+                        FlashSkill = SpawnTimePortal;
                         //uiComponent.EnableFastForwardProgressBar(false);
                         //uiComponent.SetFlashTypeText("Portal");
                         //uiComponent.SetFlashTypeOverlay(CameraPowerType.POWER_TIMEPORTAL);
@@ -195,6 +197,34 @@ namespace heheEngine
         {
             phaseObject.GetComponent<ObjectBehaviour>().PhaseObject(false);
             phaseObject = null;
+        }
+
+        void SpawnTimePortal()
+        {
+            if (doesPortalExist == false)
+            {
+
+                Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0f);
+                mousePos = new Vector3(Input.mousePosition); mousePos.z = 0f; //i set Z back to zero.
+                //portalObj = GameObject.Instantiate(Portal, mousePos, Quaternion.identity);
+
+                portalObj = GameObject.Find("Portal");
+                portalObj.SetActive(true);
+                portalObj.GetComponent<Transform>().position = mousePos;
+                Portal portal = portalObj.GetComponent<Portal>();
+                portal.SetPortalExpansion(true);
+                SetPortalExist(true);
+            }
+            else
+            {
+                Portal portal = portalObj.GetComponent<Portal>();
+                portal.SetPortalExpansion(false);
+            }
+        }
+
+        public void SetPortalExist(bool value)
+        {
+            doesPortalExist = value;
         }
     }
 }
