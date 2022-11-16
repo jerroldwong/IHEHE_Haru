@@ -37,7 +37,8 @@ namespace heheEngine
 
         private Vector3 mousePos;
 
-        public static GameObject camHit;
+        //public static GameObject camHit;
+        public static int camHit;
 
         public void Start()
         {
@@ -143,11 +144,18 @@ namespace heheEngine
                 }
             }
         }
-
+        /*
         public void OnTriggerEnter(GameObject other)
         {
             camHit = other;
             Debug.Log(camHit.name + " from CameraScript");
+        }
+        */
+
+        public void OnTriggerEnter(int otherEntityID)
+        {
+            camHit = otherEntityID;
+            Debug.Log(camHit + " from CameraScript");
         }
     }
 }

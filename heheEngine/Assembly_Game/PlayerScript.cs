@@ -99,24 +99,42 @@ namespace heheEngine
             //commands to do the camera powers
             else
             {
-                if (Input.GetKeyDown(KeyCode.ALPHA_3))
-                {
-                    GameObject b = GameObject.Find("Big_Rock");
-                    b.GetComponent<BoxCollider2D>().isTrigger = true;
-                }
-
                 if (Input.GetKeyDown(KeyCode.ALPHA_1))
                 {
-                    GameObject b = GameObject.Find("Rock");
-                    Rigidbody2D r2d = b.GetComponent<Rigidbody2D>();
-                    r2d.isStatic = true;
+                    /*
+                    GameObject b = GameObject.Find("Big_Rock");
+                    b.GetComponent<BoxCollider2D>().isTrigger = true;
+                    */
+                    playerActions.SetCameraPower(PlayerActions.CameraPowerType.POWER_TIMEPORTAL);
+                    Debug.Log("Current Power: Reveal");
                 }
 
                 if (Input.GetKeyDown(KeyCode.ALPHA_2))
                 {
+                    /*
+                    GameObject b = GameObject.Find("Rock");
+                    Rigidbody2D r2d = b.GetComponent<Rigidbody2D>();
+                    r2d.isStatic = true;
+                    */
+                    playerActions.SetCameraPower(PlayerActions.CameraPowerType.POWER_STASIS);
+                    Debug.Log("Current Power: Freeze");
+                }
+
+                if (Input.GetKeyDown(KeyCode.ALPHA_3))
+                {
+                    /*
                     GameObject b = GameObject.Find("Flower");
                     b.SetActive(true);
                     b.GetComponent<GrowScript>().isGrow = true;
+                    */
+                    playerActions.SetCameraPower(PlayerActions.CameraPowerType.POWER_FASTFORWARD);
+                    Debug.Log("Current Power: Fast Forward");
+                }
+
+                if (Input.GetKeyDown(KeyCode.ALPHA_4))
+                {
+                    playerActions.SetCameraPower(PlayerActions.CameraPowerType.POWER_PHASE);
+                    Debug.Log("Current Power: Phase");
                 }
             }
 

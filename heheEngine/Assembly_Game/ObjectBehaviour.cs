@@ -57,6 +57,13 @@ namespace heheEngine
                 Debug.Log(gameObject.name + " has been added!");
                 Debug.Log("canBeFrozen is " + canBeFrozen);
             }
+
+            if (gameObject.name == "Big Rock")
+            {
+                canBePhased = true;
+                Debug.Log(gameObject.name + " has been added!");
+                Debug.Log("canBePhased is " + canBeFrozen);
+            }
         }
 
         public void FreezeObject(bool set)
@@ -75,5 +82,20 @@ namespace heheEngine
             }
         }
 
+        public void PhaseObject(bool set)
+        {
+            if (canBePhased)
+            {
+                if (set)
+                {
+                    gameObject.GetComponent<ObjectPhase>().PhaseObject(true);
+                }
+
+                else
+                {
+                    gameObject.GetComponent<ObjectPhase>().PhaseObject(false);
+                }
+            }
+        }
     }
 }

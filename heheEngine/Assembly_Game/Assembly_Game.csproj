@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="CameraScript.cs" />
     <Compile Include="CameraTracking.cs" />
+    <Compile Include="ObjectPhase.cs" />
     <Compile Include="PlayerActions.cs" />
     <Compile Include="ObjectBehaviour.cs" />
     <Compile Include="ObjectFreeze.cs" />

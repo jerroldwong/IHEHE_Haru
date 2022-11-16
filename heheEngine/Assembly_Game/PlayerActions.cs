@@ -47,7 +47,8 @@ namespace heheEngine
         public void Start()
         {
             // to be done after porting UI_Controller
-            SetCameraPower(CameraPowerType.POWER_STASIS);
+            //SetCameraPower(CameraPowerType.POWER_STASIS);
+            SetCameraPower(CameraPowerType.POWER_PHASE);
         }
 
         public GameObject GetFastFowardObject()
@@ -98,7 +99,7 @@ namespace heheEngine
 
                 case (CameraPowerType.POWER_PHASE):
                     {
-                        //FlashSkill = SelectPhaseObject;
+                        FlashSkill = SelectPhaseObject;
                         //uiComponent.EnableFastForwardProgressBar(false);
                         //uiComponent.SetFlashTypeText("Phaser");
                         //uiComponent.SetFlashTypeOverlay(CameraPowerType.POWER_PHASE);
@@ -122,13 +123,14 @@ namespace heheEngine
                 haveObjectsFrozen = false;
             }
 
-            if (CameraScript.camHit.GetComponent<BoxCollider2D>() != null)
+            if (CameraScript.camHit == 30)
             {
-
-                if (CameraScript.camHit.tag == "Prop")
+                if (Input.GetButtonMouseDown(MouseCode.LEFT))
                 {
-                    CameraScript.camHit.GetComponent<ObjectFreeze>().FreezeObject(true);
-                    frozenObject = CameraScript.camHit;
+                    //CameraScript.camHit.GetComponent<ObjectFreeze>().FreezeObject(true);
+                    //frozenObject = CameraScript.camHit;
+                    GameObject.Find("Flower 1").GetComponent<ObjectFreeze>().FreezeObject(true);
+                    frozenObject = GameObject.Find("Flower 1");
                     haveObjectsFrozen = true;
                     Debug.Log(CameraScript.camHit + "is frozen!");
                     return;
@@ -150,6 +152,49 @@ namespace heheEngine
             frozenObject.GetComponent<ObjectFreeze>().FreezeObject(false);
             frozenObject = null;
         }
-        
+
+        public void SelectPhaseObject()
+        {
+            /*
+            Ray ray = mainCam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+            RaycastHit2D hit = Physics2D.GetRayIntersection(ray);
+            */
+            if (phaseObject != null)
+            {
+                UnphaseObjects();
+            }
+
+            if (CameraScript.camHit == 41)
+            {
+                if (Input.GetButtonMouseDown(MouseCode.LEFT))
+                {
+                    /*
+                    hit.transform.gameObject.GetComponent<ObjectBehaviour>().PhaseObject(true);
+                    phaseObject = hit.transform.gameObject;
+                    */
+                    GameObject.Find("Big Rock").GetComponent<ObjectBehaviour>().PhaseObject(true);
+                    phaseObject = GameObject.Find("Big Rock");
+                    haveObjectsPhased = true;
+                    Debug.Log(CameraScript.camHit + "is frozen!");
+                    return;
+                }
+
+                else
+                {
+                    Debug.Log("Camera did not pick up a valid object to phase");
+                }
+            }
+
+            else
+            {
+                Debug.Log("Camera did not pick up anything to phase");
+            }
+        }
+
+        private void UnphaseObjects()
+        {
+            phaseObject.GetComponent<ObjectBehaviour>().PhaseObject(false);
+            phaseObject = null;
+        }
     }
 }
